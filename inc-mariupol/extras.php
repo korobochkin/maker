@@ -1,7 +1,10 @@
 <?php
-/**
- * @return bool Show\Hide vertical sidebar on pages.
- */
-function maker_mariupol_is_sidebar_enabled() {
-	return apply_filters( 'maker_mariupol_is_sidebar_enabled', false );
+function maker_mariupol_body_classes( $classes ) {
+
+	if( is_home() || is_archive() ) {
+		$classes[] = 'no-sidebar';
+	}
+
+	return $classes;
 }
+add_filter( 'body_class', 'maker_mariupol_body_classes' );

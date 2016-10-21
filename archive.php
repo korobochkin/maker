@@ -9,16 +9,7 @@ get_header(); ?>
 
 <div id="main" class="site-main" role="main">
 	<div id="content" class="site-content">
-
-
-
-		<?php if( maker_mariupol_is_sidebar_enabled() ) : ?>
-			<div id="primary" class="content-area">
-		<?php else : ?>
-			<div id="primary" class="content-area-wide">
-		<?php endif; ?>
-
-
+		<div id="primary" class="content-area">
 
 			<?php if ( have_posts() ) : ?>
 
@@ -43,17 +34,7 @@ get_header(); ?>
 
 			<?php endif; ?>
 
-
-
-		<?php if( maker_mariupol_is_sidebar_enabled() ) : ?>
-			</div><!-- #primary -->
-			<?php get_sidebar(); ?>
-		<?php else : ?>
-			</div><!-- #primary -->
-		<?php endif; ?>
-
-
-
+		</div><!-- #primary -->
 	</div><!-- #content -->
 </div><!-- #main -->
 
