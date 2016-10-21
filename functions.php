@@ -231,3 +231,9 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Mariupol custom stuff.
+ */
+require 'inc-mariupol/extras.php';
+require 'inc-mariupol/template-tags.php';
