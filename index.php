@@ -39,11 +39,13 @@ get_header(); ?>
 
 
 		<?php if( maker_mariupol_is_sidebar_enabled() ) : ?>
-			</div>
+			</div><!-- #primary -->
 			<?php get_sidebar(); ?>
 		<?php else : ?>
-			</div>
+			</div><!-- #primary -->
 		<?php endif; ?>
+
+
 
 	</div><!-- #content -->
 </div><!-- #main -->
