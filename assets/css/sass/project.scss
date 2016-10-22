@@ -38,6 +38,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import 'abstracts/variables';
 @import 'abstracts/functions';
 @import 'abstracts/mixins';
+  @import '../../../node_modules/bootstrap/scss/mixins/text-truncate';
 
 // Theme Styles start here.
 @import 'base/normalize';

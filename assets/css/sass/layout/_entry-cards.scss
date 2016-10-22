@@ -1,5 +1,4 @@
 .cards-entry {
-  border: 10px solid #d99cff;
 
   &-thumbnail {
 
@@ -7,24 +6,60 @@
 
   &-meta {
 
+    a {
+      text-decoration: none;
+
+      &, &:visited {
+        color: $color__text;
+      }
+
+      &:hover {
+        color: $color__link-hover;
+      }
+    }
+
     &-author {
 
     }
 
     &-category {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 1;
 
+      @include text-truncate();
     }
   }
   
   &-header {
-    border: 10px solid #63acff;
+    margin-top: 11px;
+    margin-bottom: 13px;
   }
 
   &-title {
+    font-size: 24px;
+    line-height: 1.24;
+    margin: 0;
 
+    a {
+      display: block;
+      text-decoration: none;
+
+      &, &:visited {
+        //color: $color__text;
+        color: #616161;
+      }
+
+      &:hover {
+        color: $color__link-hover;
+      }
+    }
   }
 
   &-excerpt {
-
+    font-size: 16px;
+    line-height: 1.3125;
+    color: #9a9a9a;
   }
 }

@@ -13,15 +13,13 @@
 			<?php maker_mariupol_post_thumbnail(); ?>
 
 			<div class="cards-entry-meta">
-				<div class="cards-entry-meta-author">
+				<!--<div class="cards-entry-meta-author">
 					<a href="#">Author Name</a>
-				</div>
-				<div class="cards-entry-meta-category">
-					<a href="#">Category Name</a>
-				</div>
-				<div class="cards-entry-meta-comments">
+				</div>-->
+				<?php maker_mariupol_post_category(); ?>
+				<!--<div class="cards-entry-meta-comments">
 					12 Comments
-				</div>
+				</div>-->
 			</div>
 
 			<header class="cards-entry-header">
@@ -30,9 +28,11 @@
 
 			</header><!-- .entry-header -->
 
-			<div class="cards-entry-excerpt">
-				<p>Text text text</p>
-			</div>
+			<?php if( has_excerpt() ) : ?>
+				<div class="cards-entry-excerpt">
+					<?php the_excerpt(); ?>
+				</div>
+			<?php endif; ?>
 
 		</article><!-- #post-## -->
 	</div>
