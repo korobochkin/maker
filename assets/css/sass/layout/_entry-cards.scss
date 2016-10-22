@@ -1,7 +1,24 @@
 .cards-entry {
 
   &-thumbnail {
+    margin-bottom: 16px;
 
+    .embed-responsive-item {
+      background-color: #e5e5e5;
+    }
+
+    &-link {
+      display: block;
+    }
+
+    a {
+      &:hover,
+      &:focus {
+        .embed-responsive-item {
+          background-color: #eaeaea;
+        }
+      }
+    }
   }
 
   &-meta {

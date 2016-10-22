@@ -238,22 +238,22 @@ th {
 .container {
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .container-fluid {
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .row {
 	display: -ms-flexbox;
 	display: flex;
-	margin-right: -15px;
-	margin-left: -15px;
+	margin-right: -10px;
+	margin-left: -10px;
 
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
@@ -327,8 +327,8 @@ th {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .col-xs {
@@ -2545,6 +2545,23 @@ a.custom-logo-link img {
 	color: #bebebe;
 }
 
+.cards-entry-thumbnail {
+	margin-bottom: 16px;
+}
+
+.cards-entry-thumbnail .embed-responsive-item {
+	background-color: #e5e5e5;
+}
+
+.cards-entry-thumbnail-link {
+	display: block;
+}
+
+.cards-entry-thumbnail a:hover .embed-responsive-item,
+.cards-entry-thumbnail a:focus .embed-responsive-item {
+	background-color: #eaeaea;
+}
+
 .cards-entry-meta a {
 	text-decoration: none;
 }
@@ -2933,6 +2950,48 @@ input[type='submit'].wpcf7-submit:focus {
  * Media Queries
  */
 
+.embed-responsive {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 0;
+	padding: 0;
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.embed-responsive-21by9 {
+	padding-bottom: 42.85714%;
+}
+
+.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+
+.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
+
+.embed-responsive-1by1 {
+	padding-bottom: 100%;
+}
+
+.embed-responsive-1by1-9 {
+	padding-bottom: 52.63158%;
+}
+
 @media screen and (min-width: 415px) {
 	.site-info {
 		float: right;
@@ -2971,8 +3030,8 @@ input[type='submit'].wpcf7-submit:focus {
 	}
 
 	.row {
-		margin-right: -15px;
-		margin-left: -15px;
+		margin-right: -10px;
+		margin-left: -10px;
 	}
 
 	.col-xs,
@@ -3040,8 +3099,8 @@ input[type='submit'].wpcf7-submit:focus {
 	.col-xl-10,
 	.col-xl-11,
 	.col-xl-12 {
-		padding-right: 15px;
-		padding-left: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.col-sm {
@@ -3297,8 +3356,8 @@ input[type='submit'].wpcf7-submit:focus {
 	}
 
 	.row {
-		margin-right: -15px;
-		margin-left: -15px;
+		margin-right: -10px;
+		margin-left: -10px;
 	}
 
 	.col-xs,
@@ -3366,8 +3425,8 @@ input[type='submit'].wpcf7-submit:focus {
 	.col-xl-10,
 	.col-xl-11,
 	.col-xl-12 {
-		padding-right: 15px;
-		padding-left: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.col-md {
@@ -3858,8 +3917,8 @@ input[type='submit'].wpcf7-submit:focus {
 	}
 
 	.row {
-		margin-right: -15px;
-		margin-left: -15px;
+		margin-right: -10px;
+		margin-left: -10px;
 	}
 
 	.col-xs,
@@ -3927,8 +3986,8 @@ input[type='submit'].wpcf7-submit:focus {
 	.col-xl-10,
 	.col-xl-11,
 	.col-xl-12 {
-		padding-right: 15px;
-		padding-left: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.col-lg {
@@ -4363,8 +4422,8 @@ input[type='submit'].wpcf7-submit:focus {
 	}
 
 	.row {
-		margin-right: -15px;
-		margin-left: -15px;
+		margin-right: -10px;
+		margin-left: -10px;
 	}
 
 	.col-xs,
@@ -4432,8 +4491,8 @@ input[type='submit'].wpcf7-submit:focus {
 	.col-xl-10,
 	.col-xl-11,
 	.col-xl-12 {
-		padding-right: 15px;
-		padding-left: 15px;
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 
 	.col-xl {

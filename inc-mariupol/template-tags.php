@@ -1,17 +1,22 @@
 <?php
 function maker_mariupol_post_thumbnail() {
-	?><div class="cards-post-thumbnail"><?php
 
-		printf( '<a class="post-thumbnail" href="%s">', esc_url( apply_filters( 'the_permalink', get_permalink() ) ) );
+	echo '<div class="cards-entry-thumbnail">';
 
+	$url = esc_url( apply_filters( 'the_permalink', get_permalink() ) );
+
+	printf( '<a class="cards-entry-thumbnail-link" href="%s">', $url );
+
+	?><div class="embed-responsive embed-responsive-1by1-9"><div class="embed-responsive-item"><?php
 		if( has_post_thumbnail() ) {
 			the_post_thumbnail( '670x352' );
 		} else {
+			?><div class="cards-entry-thumbnail-default"></div><?php
 			echo 'default img';
 		}
+	?></div></div></a><?php
 
-		echo '</a>';
-	?></div><?php
+	echo '</div>';
 }
 
 function maker_mariupol_post_category() {
