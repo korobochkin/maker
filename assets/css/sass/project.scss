@@ -42,6 +42,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 // Theme Styles start here.
 @import 'base/normalize';
 
+// Bootstrap grid
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid';
+
 /**
  * Typography.
  */

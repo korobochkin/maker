@@ -139,3 +139,7 @@ $social-icons:(
 	'wordpress.org':     ( 'e823', #21759b ),
 	'youtube.com':       ( 'e825', #c4302b )
 );
+
+// Bootstrap Flexbox grid
+$enable-flex: true;
+$gutter: 20px;
