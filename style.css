@@ -3686,7 +3686,7 @@ input[type='submit'].wpcf7-submit:focus {
 	}
 
 	a.custom-logo-link {
-		margin: 0;
+		margin: 18px 0 0 0;
 	}
 
 	.site-header {
