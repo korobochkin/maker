@@ -11,8 +11,9 @@ function maker_mariupol_post_thumbnail() {
 		if( has_post_thumbnail() ) {
 			the_post_thumbnail( '670x352' );
 		} else {
-			?><div class="cards-entry-thumbnail-default"></div><?php
-			echo 'default img';
+			?><div class="cards-entry-thumbnail-default">
+				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/anchor.svg' ); ?>">
+			</div><?php
 		}
 	?></div></div></a><?php
 
