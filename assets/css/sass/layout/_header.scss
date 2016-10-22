@@ -19,6 +19,15 @@
 a.custom-logo-link {
 	display: block;
 	margin: 0.75em 0;
+
+
+  &:hover,
+  &:focus {
+	img {
+	  opacity: .7;
+	}
+  }
+
 	img {
 		display: block;
 		width: auto;

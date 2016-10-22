@@ -1389,6 +1389,11 @@ a.custom-logo-link {
 	margin: 0.75em 0;
 }
 
+a.custom-logo-link:hover img,
+a.custom-logo-link:focus img {
+	opacity: 0.7;
+}
+
 a.custom-logo-link img {
 	display: block;
 	width: auto;
