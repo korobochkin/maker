@@ -5,8 +5,7 @@ function maker_mariupol_post_thumbnail() {
 		printf( '<a class="post-thumbnail" href="%s">', esc_url( apply_filters( 'the_permalink', get_permalink() ) ) );
 
 		if( has_post_thumbnail() ) {
-			// TODO: fix image size
-			the_post_thumbnail( 'maker-thumbnail' );
+			the_post_thumbnail( '670x352' );
 		} else {
 			echo 'default img';
 		}

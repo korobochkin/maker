@@ -72,6 +72,10 @@ function maker_setup() {
 	add_image_size( '996x0',  996,  0, false );
 	add_image_size( '1992x0', 1992, 0, false );
 
+	// Blog thumbnail for Mariupol
+	add_image_size( '1200х630', 1200, 630, true );
+	add_image_size( '670x352',  670,  352, true );
+
 	// Portfolio thumbnail.
 	add_image_size( '480x480', 480, 480, true );
 	add_image_size( '960x960', 960, 960, true );
