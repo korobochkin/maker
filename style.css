@@ -2581,6 +2581,7 @@ a.custom-logo-link img {
 	font-weight: bold;
 	line-height: 1;
 	white-space: nowrap;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	text-overflow: ellipsis;
 }
