@@ -13,11 +13,15 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-				<?php while ( have_posts() ) : the_post(); ?>
+				<div class="row">
 
-					<?php get_template_part( 'template-parts/cards/content', get_post_format() ); ?>
+					<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php endwhile; ?>
+						<?php get_template_part( 'template-parts/cards/content', get_post_format() ); ?>
+
+					<?php endwhile; ?>
+
+				</div>
 
 				<?php maker_posts_pagination(); ?>
 
