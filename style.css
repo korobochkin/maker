@@ -1939,7 +1939,13 @@ body.single .entry-thumbnail {
 
 .entry-thumbnail a:hover .embed-responsive-item,
 .entry-thumbnail a:focus .embed-responsive-item {
-	background-color: #eaeaea;
+	background-color: #dcdcdc;
+}
+
+.entry-thumbnail a:hover .wp-post-image,
+.entry-thumbnail a:focus .wp-post-image {
+	-webkit-filter: brightness(85%);
+	        filter: brightness(85%);
 }
 
 /* Entry Title */

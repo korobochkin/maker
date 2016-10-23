@@ -33,7 +33,11 @@
 	&:hover,
 	&:focus {
 	  .embed-responsive-item {
-		background-color: #eaeaea;
+		background-color: #dcdcdc;
+	  }
+
+	  .wp-post-image {
+		filter: brightness(85%);
 	  }
 	}
   }
