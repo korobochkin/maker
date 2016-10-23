@@ -33,9 +33,13 @@
 	@media screen and ( min-width: $sm ) {
 		display: block;
 	}
-	/*a {
-		color: $color__accent;
-	}*/
+	a {
+		//color: $color__accent;
+	  	&:hover,
+	  	&:focus {
+		  text-decoration: none;
+		}
+	}
 }
 
 .entry-meta-item.posted-on {

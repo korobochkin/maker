@@ -2054,10 +2054,12 @@ body.single .entry-thumbnail {
 	font-weight: bold;
 	line-height: 1.7142857143;
 	letter-spacing: 2px;
-	text-transform: uppercase; /*a {
-  	color: $color__accent;
-  }
-*/
+	text-transform: uppercase;
+}
+
+.entry-meta-item.cat-links a:hover,
+.entry-meta-item.cat-links a:focus {
+	text-decoration: none;
 }
 
 .entry-meta-item.posted-on a:hover,
