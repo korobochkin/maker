@@ -49,3 +49,88 @@ function maker_mariupol_post_category() {
 		?></div><?php
 	}
 }
+
+function maker_mariupol_site_footer_logo() {
+
+	$markup = '';
+
+	$markup .= sprintf(
+		'<img src="%1$s" width="150">',
+		esc_url( get_template_directory_uri() . '/assets/images/mariupol.svg' )
+	);
+
+	if( is_front_page() && is_home() ) {
+		$template = '<a href="%1$s" class="site-footer-logo">%2$s</a>';
+		$markup = sprintf(
+			$template,
+			esc_url( home_url( '/' ) ),
+			$markup
+		);
+		unset( $template );
+	} else {
+		$markup = '<span class="site-footer-logo">' . $markup . '</span>';
+	}
+
+	$markup = '<div class="site-footer-logo-wrapper">' . $markup . '</div>';
+
+	echo $markup;
+}
+
+function maker_mariupol_footer_copyright() {
+
+	$markup = '';
+
+	$fromYear = 2016;
+	$toYear = 0;
+
+	$timezone = get_option( 'timezone_string' );
+	if( is_string( $timezone ) && !empty( $timezone ) ) {
+		$timezone = new \DateTimeZone( $timezone );
+		if( $timezone ) {
+			$now = new \DateTime( 'now', $timezone );
+			if( $now ) {
+				$toYear = $now->format( 'Y' );
+			} else {
+				$toYear = date( 'Y' );
+			}
+		}
+	} else {
+		$toYear = date( 'Y' );
+	}
+	unset( $timezone, $now );
+
+	if( is_string( $toYear ) ) {
+		$toYear = (int)$toYear;
+		if( $toYear === $fromYear ) {
+			$markup .= sprintf(
+				__('&copy;&nbsp;%1$s «%2$s»', 'maker-mariupol'),
+				esc_html( $fromYear ),
+				esc_html( get_bloginfo( 'name' ) )
+			);
+		} else {
+			$markup .= sprintf(
+				__('&copy;&nbsp;%1$s&ndash;%2$s «%3$s»', 'maker-mariupol'),
+				esc_html( $fromYear ),
+				esc_html( $toYear ),
+				esc_html( get_bloginfo( 'name' ) )
+			);
+		}
+	}
+	unset( $toYear, $fromYear );
+
+	$email = get_option( 'admin_email' );
+	if( !empty( $email ) ) {
+		$email = antispambot( $email );
+		$markup .= sprintf(
+			'<span class="admin-email"><a href="mailto:%1$s">%1$s</a></span>',
+			$email
+		);
+	}
+	unset( $email );
+
+	echo $markup;
+}
+
+function maker_mariupol_footer_legal_notes() {
+	echo 'Використання будь-яких матеріалів сайту заборонене без згоди редакції &laquo;Мариуполісу&raquo;. Всі права на&nbsp;тексти, зображення і&nbsp;відео належать їхнім авторам.';
+}

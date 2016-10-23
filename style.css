@@ -1429,12 +1429,60 @@ a.custom-logo-link img {
 /* Footer */
 
 .site-footer {
-	color: #bebebe;
+	padding: 42px 0;
+	color: #909090;
+	background-color: #e5e5e5;
+}
+
+.site-footer .site {
+	background-color: transparent;
 }
 
 .site-info {
 	display: block;
 	margin-bottom: 1.5em;
+}
+
+.site-footer-logo-wrapper {
+	display: block;
+}
+
+.site-footer-logo {
+	display: block;
+	width: 150px;
+}
+
+.site-footer-logo img {
+	opacity: 0.27;
+}
+
+a.site-footer-logo:hover img,
+a.site-footer-logo:focus img {
+	opacity: 0.2;
+}
+
+.site-info-legal-notes {
+	font-size: 13px;
+	line-height: 1.39;
+}
+
+.site-info-copyright {
+	font-size: 13px;
+	line-height: 1.39;
+}
+
+.site-info-copyright .admin-email {
+	display: block;
+}
+
+.site-info-copyright .admin-email a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.site-info-copyright .admin-email a:hover,
+.site-info-copyright .admin-email a:focus {
+	text-decoration: none;
 }
 
 /* Primary Menu */
@@ -3788,10 +3836,6 @@ input[type='submit'].wpcf7-submit:focus {
 		margin-bottom: 0;
 	}
 
-	.site-footer {
-		padding: 1.5em 0;
-	}
-
 	.main-navigation {
 		width: auto;
 	}
@@ -4348,6 +4392,10 @@ input[type='submit'].wpcf7-submit:focus {
 		margin-right: 0;
 	}
 
+	.site-footer {
+		padding-bottom: 100px;
+	}
+
 	.pagination {
 		max-width: 100%;
 	}
@@ -4765,5 +4813,11 @@ input[type='submit'].wpcf7-submit:focus {
 
 	.offset-xl-11 {
 		margin-left: 91.66667%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.site-info-copyright {
+		margin-top: 20px;
 	}
 }

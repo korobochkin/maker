@@ -533,49 +533,6 @@ if ( ! function_exists( 'maker_footer_text' ) ) :
  */
 function maker_footer_text() {
 
-	echo '<div class="small site-info-mariupol">';
-
-	echo '<div>';
-	_e( 'Використання будь-яких матеріалів сайту заборонене без згоди редакції «Мариуполісу». Всі права на тексти, зображення і відео належать їхнім авторам.', 'maker-mariupol' );
-	echo '</div>';
-
-	$fromYear = 2016;
-	$toYear = 0;
-
-	$timezone = get_option( 'timezone_string' );
-	if( is_string( $timezone ) && !empty( $timezone ) ) {
-		$timezone = new \DateTimeZone( $timezone );
-		if( $timezone ) {
-			$now = new \DateTime( 'now', $timezone );
-			if( $now ) {
-				$toYear = $now->format( 'Y' );
-			} else {
-				$toYear = date( 'Y' );
-			}
-		}
-	} else {
-		$toYear = date( 'Y' );
-	}
-
-	if( is_string( $toYear ) ) {
-		$toYear = (int)$toYear;
-		if( $toYear === $fromYear ) {
-			printf(
-				__('&copy;&nbsp;%1$s «%2$s»', 'maker-mariupol'),
-				esc_html( $fromYear ),
-				esc_html( get_bloginfo( 'name' ) )
-			);
-		} else {
-			printf(
-				__('&copy;&nbsp;%1$s&ndash;%2$s «%3$s»', 'maker-mariupol'),
-				esc_html( $fromYear ),
-				esc_html( $toYear ),
-				esc_html( get_bloginfo( 'name' ) )
-			);
-		}
-	}
-
-	echo '</div>';
 }
 endif;
 
