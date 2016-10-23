@@ -154,7 +154,7 @@ function maker_scripts() {
 		'maker-style',
 		get_stylesheet_uri(),
 		array(),
-		'2016-10-23-22-40'
+		'2016-10-23-22-42'
 	);
 
 	wp_enqueue_script(
