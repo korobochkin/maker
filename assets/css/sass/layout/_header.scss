@@ -21,6 +21,14 @@ a.custom-logo-link {
 	display: block;
 	margin: 0.75em 0;
 
+	@media screen and (max-width: $sm) {
+	  margin-top: 1.5em;
+
+	  img {
+		width: 170px;
+	  }
+	}
+
 
   &:hover,
   &:focus {

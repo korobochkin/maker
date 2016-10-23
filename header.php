@@ -23,7 +23,7 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="wrap">
 			<div class="site-branding">
-				<?php maker_site_logo(); ?>
+				<?php maker_mariupol_header_site_logo(); ?>
 				<?php maker_site_title(); ?>
 				<?php maker_site_description(); ?>
 			</div><!-- .site-branding -->

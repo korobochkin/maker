@@ -134,3 +134,21 @@ function maker_mariupol_footer_copyright() {
 function maker_mariupol_footer_legal_notes() {
 	echo 'Використання будь-яких матеріалів сайту заборонене без згоди редакції &laquo;Мариуполісу&raquo;. Всі права на&nbsp;тексти, зображення і&nbsp;відео належать їхнім авторам.';
 }
+
+function maker_mariupol_header_site_logo() {
+
+	$markup = '';
+
+	$markup .= sprintf(
+		'<img src="%1$s" class="site-header-logo" itemprop="logo" width="219"></a>',
+		esc_url( get_template_directory_uri() . '/assets/images/mariupol.svg' )
+	);
+
+	$markup = sprintf(
+		'<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a>',
+		esc_url( home_url( '/' ) ),
+		$markup
+	);
+
+	echo $markup;
+}

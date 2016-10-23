@@ -4817,6 +4817,14 @@ input[type='submit'].wpcf7-submit:focus {
 }
 
 @media screen and (max-width: 768px) {
+	a.custom-logo-link {
+		margin-top: 1.5em;
+	}
+
+	a.custom-logo-link img {
+		width: 170px;
+	}
+
 	.site-info-copyright {
 		margin-top: 20px;
 	}
