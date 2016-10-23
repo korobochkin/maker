@@ -3138,9 +3138,9 @@ input[type='submit'].wpcf7-submit:focus {
 	font-family: Graphik;
 	font-weight: normal;
 
-	src: url('../../uploads/2016/10/graphik/Graphik-Regular-Web.eot');
+	src: url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.eot');
 	undefined: undefined;
-	src: url('../../uploads/2016/10/graphik/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'), url('../../uploads/2016/10/graphik/Graphik-Regular-Web.woff2') format('woff2'), url('../../uploads/2016/10/graphik/Graphik-Regular-Web.woff') format('woff'), url('../../uploads/2016/10/graphik/Graphik-Regular-Web.ttf') format('truetype');
+	src: url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'), url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.woff2') format('woff2'), url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.woff') format('woff'), url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.ttf') format('truetype');
 	undefined: undefined;
 }
 
@@ -3148,9 +3148,9 @@ input[type='submit'].wpcf7-submit:focus {
 	font-family: Graphik;
 	font-weight: bold;
 
-	src: url('../../uploads/2016/10/graphik/Graphik-Medium-Web.eot');
+	src: url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.eot');
 	undefined: undefined;
-	src: url('../../uploads/2016/10/graphik/Graphik-Medium-Web.eot?#iefix') format('embedded-opentype'), url('../../uploads/2016/10/graphik/Graphik-Medium-Web.woff2') format('woff2'), url('../../uploads/2016/10/graphik/Graphik-Medium-Web.woff') format('woff'), url('../../uploads/2016/10/graphik/Graphik-Medium-Web.ttf') format('truetype');
+	src: url('../../uploads/2016/10/graphik/mediumGraphik-Medium-Web.eot?#iefix') format('embedded-opentype'), url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.woff2') format('woff2'), url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.woff') format('woff'), url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.ttf') format('truetype');
 	undefined: undefined;
 }
 
