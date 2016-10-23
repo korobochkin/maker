@@ -1,11 +1,21 @@
 @font-face {
   font-family: Graphik;
   font-weight: normal;
-  src: url('../../uploads/2016/10/graphik/Graphik-Regular-Web.woff2');
+
+  src: url('../../uploads/2016/10/graphik/Graphik-Regular-Web.eot'); /* IE9 Compat Modes */
+  src: url('../../uploads/2016/10/graphik/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../uploads/2016/10/graphik/Graphik-Regular-Web.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../uploads/2016/10/graphik/Graphik-Regular-Web.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../uploads/2016/10/graphik/Graphik-Regular-Web.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: Graphik;
   font-weight: bold;
-  src: url('../../uploads/2016/10/graphik/Graphik-Medium-Web.woff2');
+
+  src: url('../../uploads/2016/10/graphik/Graphik-Medium-Web.eot'); /* IE9 Compat Modes */
+  src: url('../../uploads/2016/10/graphik/Graphik-Medium-Web.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../uploads/2016/10/graphik/Graphik-Medium-Web.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../../uploads/2016/10/graphik/Graphik-Medium-Web.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../../uploads/2016/10/graphik/Graphik-Medium-Web.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
