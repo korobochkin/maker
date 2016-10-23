@@ -1,27 +1,34 @@
 <?php
 function maker_mariupol_post_thumbnail() {
 
-	echo '<div class="entry-thumbnail">';
+	$markup = '';
 
-	$url = esc_url( apply_filters( 'the_permalink', get_permalink() ) );
-
-	printf( '<a class="entry-thumbnail-link" href="%s">', $url );
-
-	?><div class="embed-responsive embed-responsive-1by1-9"><div class="embed-responsive-item"><?php
-		if( has_post_thumbnail() ) {
-			if( is_singular() ) {
-				the_post_thumbnail( '1200х630' );
-			} else {
-				the_post_thumbnail( '670x352' );
-			}
+	if( has_post_thumbnail() ) {
+		if( is_singular() ) {
+			$markup .= get_the_post_thumbnail( null, '1200х630' );
 		} else {
-			?><div class="entry-thumbnail-default">
-				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/anchor.svg' ); ?>">
-			</div><?php
+			$markup .= get_the_post_thumbnail( null, '670x352' );
 		}
-	?></div></div></a><?php
+	} else {
+		$markup .= sprintf(
+			'<div class="entry-thumbnail-default"><img src="%1$s"></div>',
+			esc_url( get_template_directory_uri() . '/assets/images/anchor.svg' )
+		);
+	}
 
-	echo '</div>';
+	$markup =
+		'<div class="embed-responsive embed-responsive-1by1-9"><div class="embed-responsive-item">'
+		. $markup .
+		'</div></div>';
+
+	if( !is_singular() ) {
+		$url = esc_url( apply_filters( 'the_permalink', get_permalink() ) );
+		$markup = sprintf( '<a class="entry-thumbnail-link" href="%1$s">%2$s</a>', $url, $markup );
+	}
+
+	$markup = '<div class="entry-thumbnail">' . $markup . '</div>';
+
+	echo $markup;
 }
 
 function maker_mariupol_post_category() {
