@@ -152,7 +152,9 @@ function maker_scripts() {
 
 	wp_enqueue_style(
 		'maker-style',
-		get_stylesheet_uri()
+		get_stylesheet_uri(),
+		array(),
+		'1.2.3'
 	);
 
 	wp_enqueue_script(
