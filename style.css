@@ -1381,6 +1381,7 @@ p > video {
 
 .site-branding {
 	display: inline-block;
+	width: 219px;
 	max-width: 222px;
 }
 
