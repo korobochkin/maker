@@ -16,18 +16,20 @@ get_header(); ?>
 
 				get_template_part( 'template-parts/content', 'single' );
 
-				if ( comments_open() || get_comments_number() ) {
-					comments_template();
-				}
+				?><div class="row"><div class="col-md-8 offset-md-2"><?php
 
-				maker_post_navigation();
+					if ( comments_open() || get_comments_number() ) {
+						comments_template();
+					}
+
+					maker_post_navigation();
+
+				?></div></div><?php
 
 			endwhile;
 		?>
 
 		</div>
-
-		<?php get_sidebar(); ?>
 
 	</div><!-- #content -->
 </div><!-- #main -->

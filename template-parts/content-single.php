@@ -9,24 +9,33 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php maker_post_thumbnail(); ?>
+	<?php maker_mariupol_post_thumbnail(); ?>
 
-	<header class="entry-header">
+	<div class="row">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<div class="col-md-2">
+			<?php maker_entry_meta_before_content(); ?>
+		</div>
 
-	</header><!-- .entry-header -->
+		<div class="col-md-8">
 
-	<?php maker_entry_meta_before_content(); ?>
+			<header class="entry-header">
 
-	<div class="entry-content post-single-item-content">
+				<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
-		<?php the_content(); ?>
+			</header><!-- .entry-header -->
 
-		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'maker' ), 'after' => '</div>' ) ); ?>
+			<div class="entry-content post-single-item-content">
 
-	</div><!-- .entry-content -->
+				<?php the_content(); ?>
 
-	<?php maker_entry_meta_after_content(); ?>
+				<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'maker' ), 'after' => '</div>' ) ); ?>
+
+			</div><!-- .entry-content -->
+
+			<?php maker_entry_meta_after_content(); ?>
+		</div>
+
+	</div>
 
 </article><!-- #post-## -->

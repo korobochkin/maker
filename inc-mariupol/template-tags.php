@@ -1,17 +1,21 @@
 <?php
 function maker_mariupol_post_thumbnail() {
 
-	echo '<div class="cards-entry-thumbnail">';
+	echo '<div class="entry-thumbnail">';
 
 	$url = esc_url( apply_filters( 'the_permalink', get_permalink() ) );
 
-	printf( '<a class="cards-entry-thumbnail-link" href="%s">', $url );
+	printf( '<a class="entry-thumbnail-link" href="%s">', $url );
 
 	?><div class="embed-responsive embed-responsive-1by1-9"><div class="embed-responsive-item"><?php
 		if( has_post_thumbnail() ) {
-			the_post_thumbnail( '670x352' );
+			if( is_singular() ) {
+				the_post_thumbnail( '1200х630' );
+			} else {
+				the_post_thumbnail( '670x352' );
+			}
 		} else {
-			?><div class="cards-entry-thumbnail-default">
+			?><div class="entry-thumbnail-default">
 				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/anchor.svg' ); ?>">
 			</div><?php
 		}
