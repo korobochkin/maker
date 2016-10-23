@@ -543,13 +543,15 @@ function maker_footer_text() {
 	$toYear = 0;
 
 	$timezone = get_option( 'timezone_string' );
-	$timezone = new \DateTimeZone( $timezone );
-	if( $timezone ) {
-		$now = new \DateTime( 'now', $timezone );
-		if( $now ) {
-			$toYear = $now->format( 'Y' );
-		} else {
-			$toYear = date( 'Y' );
+	if( is_string( $timezone ) && !empty( $timezone ) ) {
+		$timezone = new \DateTimeZone( $timezone );
+		if( $timezone ) {
+			$now = new \DateTime( 'now', $timezone );
+			if( $now ) {
+				$toYear = $now->format( 'Y' );
+			} else {
+				$toYear = date( 'Y' );
+			}
 		}
 	} else {
 		$toYear = date( 'Y' );
