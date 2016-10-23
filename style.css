@@ -1449,12 +1449,11 @@ a.custom-logo-link img {
 
 .site-footer-logo {
 	display: block;
-	width: 150px;
 }
 
 .site-footer-logo img {
 	width: auto;
-	height: 50px;
+	height: 60px;
 	opacity: 0.27;
 }
 
