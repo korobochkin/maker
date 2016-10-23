@@ -6,7 +6,7 @@ module.exports = {
 		expand: true,
 		src: [
 			'style.css',
-			'assets/css/editor-style.css',
+			'editor-style.css',
 		]
 	}
 }

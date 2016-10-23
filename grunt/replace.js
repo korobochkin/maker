@@ -3,7 +3,7 @@ module.exports = {
 	line_after_brace: {
 		src: [
 			'style.css',
-			'assets/css/editor-style.css'
+			'editor-style.css'
 		],
 		overwrite: true,
 		replacements: [ {
@@ -18,7 +18,7 @@ module.exports = {
 	line_after_docblock: {
 		src: [
 			'style.css',
-			'assets/css/editor-style.css'
+			'editor-style.css'
 		],
 		overwrite: true,
 		replacements: [ {

@@ -10,7 +10,7 @@ module.exports = {
 		options: {
 			beautify: true
 		},
-		src:  'assets/css/editor-style.css',
-		dest: 'assets/css/editor-style.css'
+		src:  'editor-style.css',
+		dest: 'editor-style.css'
 	}
 }

@@ -8,7 +8,7 @@ module.exports = {
 	files: {
 		src: [
 			'style.css',
-			'assets/css/editor-style.css'
+			'editor-style.css'
 		]
 	}
 }

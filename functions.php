@@ -105,7 +105,7 @@ function maker_setup() {
 	/*
 	 * This theme styles the visual editor to resemble the theme style.
 	 */
-	add_editor_style( array( 'assets/css/editor-style.css?2016-10-23-23-57' ) );
+	add_editor_style( array( get_template_directory_uri() . '/editor-style.css?2016-10-23-23-57' ) );
 }
 endif;
 add_action( 'after_setup_theme', 'maker_setup' );
