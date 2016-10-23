@@ -39,7 +39,7 @@ Description: Used to style the TinyMCE editor.
 html {
 	box-sizing: border-box;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 
 	-webkit-text-size-adjust: 100%;
 	    -ms-text-size-adjust: 100%;
@@ -112,7 +112,7 @@ ins {
 }
 
 small {
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 }
 
@@ -180,7 +180,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	margin: 0 0 24px 0;
+	margin: 0 0 27px 0;
 	margin: 0 0 1.5rem 0;
 	color: #585858;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
@@ -188,25 +188,25 @@ h6 {
 }
 
 h1 {
-	font-size: 24px;
-	font-size: 1.5rem;
+	font-size: 45px;
+	font-size: 2.5rem;
 	line-height: 1.125;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 22.5px;
 	font-size: 1.25rem;
 	line-height: 1.2;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
 	line-height: 1.2;
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
 	font-weight: normal;
 	line-height: 1.2;
@@ -214,7 +214,7 @@ h4 {
 
 h5 {
 	margin-bottom: 0.75em;
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 	line-height: 1.2;
 	letter-spacing: 2px;
@@ -223,7 +223,7 @@ h5 {
 
 h6 {
 	margin-bottom: 0.75em;
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 	font-weight: normal;
 	line-height: 1.2;
@@ -242,9 +242,9 @@ address {
 }
 
 big {
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
-	line-height: 16px;
+	line-height: 18px;
 	line-height: 1rem;
 }
 
@@ -277,10 +277,10 @@ blockquote {
 	border-top-color: #585858;
 	border-bottom-color: #bebebe;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
 	font-style: italic;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	quotes: '' '';
 }
@@ -298,10 +298,10 @@ blockquote cite {
 	display: block;
 	margin: 0 0 -1.2em 0;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 10px;
+	font-size: 11.25px;
 	font-size: 0.625rem;
 	font-style: normal;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	letter-spacing: 0.0625em;
 	text-transform: uppercase;
@@ -370,27 +370,27 @@ dd {
 
 table {
 	width: 100%;
-	margin-bottom: 1.4375em;
+	margin-bottom: 1.44444em;
 	padding: 0;
 }
 
 td,
 th {
-	padding: 0.6875em 0.75em 0.75em;
+	padding: 0.69444em 0.75em 0.75em;
 	border-bottom: 1px solid;
 	border-bottom-color: #f1f1f1;
 	text-align: left;
 }
 
 thead th {
-	padding: 0.91667em 1em 0.91667em;
+	padding: 0.92593em 1em 0.92593em;
 	border-bottom: 2px solid;
 	border-bottom-color: #bebebe;
 	background-color: #f1f1f1;
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 	font-weight: bold;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	text-transform: uppercase;
 }
@@ -415,7 +415,7 @@ samp,
 tt,
 var {
 	font-family: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
-	font-size: 15px;
+	font-size: 16.875px;
 	font-size: 0.9375rem;
 }
 
@@ -498,9 +498,9 @@ p > video {
 	margin: 0;
 	padding: 0;
 	border: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 }
 
@@ -525,7 +525,7 @@ p > video {
 
 .mce-content-body .wp-playlist-item,
 .mce-content-body .wp-playlist-item-length {
-	padding: 0.625em 0.75em 0.75em;
+	padding: 0.63889em 0.75em 0.75em;
 }
 
 .mce-content-body .wp-playlist-item {
@@ -536,10 +536,10 @@ p > video {
 .mce-content-body .wp-playlist-caption,
 .mce-content-body [class*='wp-playlist-item-'] {
 	color: #bebebe;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
 	font-style: normal;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	text-transform: none;
 }
@@ -574,7 +574,7 @@ p > video {
 	padding: 0;
 	color: #bebebe;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 	font-weight: normal;
 	font-style: normal;
@@ -613,11 +613,11 @@ img.alignright,
 }
 
 blockquote.alignleft {
-	margin: 0 1.5em 0.9375em 0;
+	margin: 0 1.5em 0.94444em 0;
 }
 
 blockquote.alignright {
-	margin: 0 0 0.9375em 1.5em;
+	margin: 0 0 0.94444em 1.5em;
 }
 
 /* Clearings */
@@ -645,7 +645,7 @@ blockquote.alignright {
 
 .gallery,
 #content .tiled-gallery {
-	margin: 0 -2px 1.375em;
+	margin: 0 -2px 1.38889em;
 }
 
 .gallery-item {
@@ -795,6 +795,6 @@ blockquote.alignright {
 	}
 
 	table {
-		margin-bottom: 2.9375em;
+		margin-bottom: 2.94444em;
 	}
 }

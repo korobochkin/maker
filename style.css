@@ -44,7 +44,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 html {
 	box-sizing: border-box;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 
 	-webkit-text-size-adjust: 100%;
 	    -ms-text-size-adjust: 100%;
@@ -116,7 +116,7 @@ ins {
 }
 
 small {
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 }
 
@@ -207,7 +207,7 @@ input[type='search']::-webkit-search-decoration {
 
 fieldset {
 	margin: 0 0 1.5em;
-	padding: 0.625em 1em 0;
+	padding: 0.63889em 1em 0;
 	border: 2px solid;
 	border-color: #f1f1f1;
 	border-radius: 3px;
@@ -585,7 +585,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	margin: 0 0 24px 0;
+	margin: 0 0 27px 0;
 	margin: 0 0 1.5rem 0;
 	color: #585858;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
@@ -593,25 +593,25 @@ h6 {
 }
 
 h1 {
-	font-size: 24px;
-	font-size: 1.5rem;
+	font-size: 45px;
+	font-size: 2.5rem;
 	line-height: 1.125;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 22.5px;
 	font-size: 1.25rem;
 	line-height: 1.2;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
 	line-height: 1.2;
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
 	font-weight: normal;
 	line-height: 1.2;
@@ -619,7 +619,7 @@ h4 {
 
 h5 {
 	margin-bottom: 0.75em;
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 	line-height: 1.2;
 	letter-spacing: 2px;
@@ -628,7 +628,7 @@ h5 {
 
 h6 {
 	margin-bottom: 0.75em;
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 	font-weight: normal;
 	line-height: 1.2;
@@ -647,9 +647,9 @@ address {
 }
 
 big {
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
-	line-height: 16px;
+	line-height: 18px;
 	line-height: 1rem;
 }
 
@@ -682,10 +682,10 @@ blockquote {
 	border-top-color: #585858;
 	border-bottom-color: #bebebe;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20.25px;
 	font-size: 1.125rem;
 	font-style: italic;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	quotes: '' '';
 }
@@ -703,10 +703,10 @@ blockquote cite {
 	display: block;
 	margin: 0 0 -1.2em 0;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 10px;
+	font-size: 11.25px;
 	font-size: 0.625rem;
 	font-style: normal;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	letter-spacing: 0.0625em;
 	text-transform: uppercase;
@@ -754,27 +754,27 @@ dd {
 
 table {
 	width: 100%;
-	margin-bottom: 1.4375em;
+	margin-bottom: 1.44444em;
 	padding: 0;
 }
 
 td,
 th {
-	padding: 0.6875em 0.75em 0.75em;
+	padding: 0.69444em 0.75em 0.75em;
 	border-bottom: 1px solid;
 	border-bottom-color: #f1f1f1;
 	text-align: left;
 }
 
 thead th {
-	padding: 0.91667em 1em 0.91667em;
+	padding: 0.92593em 1em 0.92593em;
 	border-bottom: 2px solid;
 	border-bottom-color: #bebebe;
 	background-color: #f1f1f1;
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 	font-weight: bold;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	text-transform: uppercase;
 }
@@ -799,12 +799,12 @@ samp,
 tt,
 var {
 	font-family: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
-	font-size: 15px;
+	font-size: 16.875px;
 	font-size: 0.9375rem;
 }
 
 .small {
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 }
 
@@ -823,7 +823,7 @@ input[type='submit'],
 	display: inline-block;
 	height: 3em;
 	margin: 0;
-	padding: 0.625em 2em 0.625em;
+	padding: 0.63889em 2em 0.63889em;
 	border: 2px solid;
 	border-color: #f1f1f1;
 	border-radius: 3px;
@@ -915,7 +915,7 @@ input[type='password'],
 input[type='search'],
 textarea {
 	width: 100%;
-	padding: 0.625em 1em;
+	padding: 0.63889em 1em;
 	border: 2px solid;
 	border-color: #f1f1f1;
 	border-radius: 3px;
@@ -923,9 +923,9 @@ textarea {
 	color: #585858;
 	background-color: transparent;
 	box-shadow: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	vertical-align: middle;
 }
@@ -1030,11 +1030,11 @@ img.alignright,
 }
 
 blockquote.alignleft {
-	margin: 0 1.5em 0.9375em 0;
+	margin: 0 1.5em 0.94444em 0;
 }
 
 blockquote.alignright {
-	margin: 0 0 0.9375em 1.5em;
+	margin: 0 0 0.94444em 1.5em;
 }
 
 /* Images */
@@ -1061,7 +1061,7 @@ img {
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
-	line-height: 16px;
+	line-height: 18px;
 	line-height: 1rem;
 	text-align: center;
 	text-decoration: none;
@@ -1085,7 +1085,7 @@ hr {
 .use-floating-validation-tip .wpcf7-not-valid-tip {
 	min-height: 3em;
 	margin: 0 0 1.5em;
-	padding: 0.625em 1.5em;
+	padding: 0.63889em 1.5em;
 	border-width: 2px;
 	border-style: solid;
 	border-radius: 3px;
@@ -1148,9 +1148,9 @@ p > video {
 	margin: 0 0 1.5em;
 	padding: 0;
 	border: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 }
 
@@ -1175,7 +1175,7 @@ p > video {
 
 #content .wp-playlist-item,
 #content .wp-playlist-item-length {
-	padding: 0.6875em 0.75em 0.75em;
+	padding: 0.69444em 0.75em 0.75em;
 }
 
 #content .wp-playlist-item {
@@ -1186,10 +1186,10 @@ p > video {
 #content .wp-playlist-caption,
 #content [class*='wp-playlist-item-'] {
 	color: #bebebe;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
 	font-style: normal;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	text-transform: none;
 }
@@ -1223,7 +1223,7 @@ p > video {
 	margin: 1em 0;
 	color: #bebebe;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 	font-weight: normal;
 	font-style: normal;
@@ -1271,7 +1271,7 @@ p > video {
 	color: #21759b;
 	background-color: #f1f1f1;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 	font-weight: bold;
 	line-height: normal;
@@ -1399,10 +1399,10 @@ a.custom-logo-link img {
 	padding-top: 1em;
 	color: #585858;
 	font-family: Graphik, Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 27px;
 	font-size: 1.5rem;
 	font-weight: bold;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 }
 
@@ -1414,7 +1414,7 @@ a.custom-logo-link img {
 	margin-bottom: 1em;
 	padding-top: 0;
 	color: #bebebe;
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 	font-weight: normal;
 	line-height: 1.5;
@@ -1543,8 +1543,8 @@ a.site-footer-logo:focus img {
 	top: 50%;
 	left: 50%;
 	width: 1em;
-	height: 0.125em;
-	margin-top: -0.0625em;
+	height: 0.11111em;
+	margin-top: -0.05556em;
 	margin-left: -0.5em;
 	background-color: #585858;
 }
@@ -1554,18 +1554,18 @@ a.site-footer-logo:focus img {
 	display: block;
 	position: absolute;
 	width: 1em;
-	height: 0.125em;
+	height: 0.11111em;
 	background-color: #585858;
 	content: '';
 	transition: transform 0.3s, top 0.3s;
 }
 
 .menu-toggle-icon:before {
-	top: -0.375em;
+	top: -0.33333em;
 }
 
 .menu-toggle-icon:after {
-	top: 0.375em;
+	top: 0.33333em;
 }
 
 .menu-toggle.toggled .menu-toggle-icon {
@@ -1867,8 +1867,8 @@ a.site-footer-logo:focus img {
 	display: none;
 	overflow: hidden;
 	min-width: 2em;
-	padding-right: 0.625em;
-	padding-left: 0.625em;
+	padding-right: 0.63889em;
+	padding-left: 0.63889em;
 	border-color: transparent;
 }
 
@@ -1878,7 +1878,7 @@ a.site-footer-logo:focus img {
 	position: absolute;
 	top: 0;
 	width: 3em;
-	padding: 0.625em;
+	padding: 0.63889em;
 	border-color: #f1f1f1;
 	color: transparent;
 }
@@ -1925,8 +1925,8 @@ a.site-footer-logo:focus img {
 .pagination .page-numbers.all {
 	display: inline-block;
 	width: 3em;
-	padding-right: 0.625em;
-	padding-left: 0.625em;
+	padding-right: 0.63889em;
+	padding-left: 0.63889em;
 	border-color: #f1f1f1;
 }
 
@@ -2006,7 +2006,7 @@ body.single .entry-thumbnail {
 /* Entry Title */
 
 .entry-title {
-	font-size: 24px;
+	font-size: 27px;
 	font-size: 1.5rem;
 }
 
@@ -2050,7 +2050,7 @@ body.single .entry-thumbnail {
 
 .entry-meta-item.cat-links {
 	display: block;
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
 	font-weight: bold;
 	line-height: 1.7142857143;
@@ -2136,7 +2136,7 @@ body.single .entry-thumbnail {
 
 .comment-list {
 	margin-left: 0;
-	padding-top: 1.375em;
+	padding-top: 1.38889em;
 	border-top: 2px solid;
 	border-top-color: #f1f1f1;
 }
@@ -2147,7 +2147,7 @@ body.single .entry-thumbnail {
 
 .comment-body {
 	position: relative;
-	margin: 0 0 1.375em 0;
+	margin: 0 0 1.38889em 0;
 	border-bottom: 2px solid;
 	border-bottom-color: #f1f1f1;
 	word-wrap: break-word;
@@ -2186,7 +2186,7 @@ body.single .entry-thumbnail {
 .comment-author .fn,
 .comment-metadata {
 	display: block;
-	margin-left: 72px;
+	margin-left: 81px;
 	margin-left: 4.5rem;
 }
 
@@ -2195,11 +2195,11 @@ body.single .entry-thumbnail {
 }
 
 .comment-metadata {
-	margin-bottom: 24px;
+	margin-bottom: 27px;
 	margin-bottom: 1.5rem;
-	font-size: 14px;
+	font-size: 15.75px;
 	font-size: 0.875rem;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 }
 
@@ -2233,10 +2233,10 @@ body.single .entry-thumbnail {
 
 .comment-reply-title small {
 	float: right;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
 	font-weight: normal;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	line-height: inherit;
 }
@@ -2272,7 +2272,7 @@ body.single .entry-thumbnail {
 
 .comments-title,
 .comment-reply-title {
-	font-size: 24px;
+	font-size: 27px;
 	font-size: 1.5rem;
 }
 
@@ -2386,7 +2386,7 @@ body.single .entry-thumbnail {
 .project-title a {
 	display: block;
 	color: #585858;
-	font-size: 16px;
+	font-size: 18px;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -2406,7 +2406,7 @@ body.single .entry-thumbnail {
 
 .gallery,
 #content .tiled-gallery {
-	margin: 0 -2px 1.375em;
+	margin: 0 -2px 1.38889em;
 }
 
 .gallery-item {
@@ -2534,10 +2534,10 @@ body.single .entry-thumbnail {
 .widget_calendar caption {
 	color: #fff;
 	background-color: #bebebe;
-	font-size: 10px;
+	font-size: 11.25px;
 	font-size: 0.625rem;
 	font-weight: normal;
-	line-height: 24px;
+	line-height: 27px;
 	line-height: 1.5rem;
 	letter-spacing: 0.0625em;
 	text-transform: uppercase;
@@ -2551,18 +2551,18 @@ body.single .entry-thumbnail {
 .widget_calendar td,
 .widget_calendar th {
 	padding: 0;
-	font-size: 12px;
+	font-size: 13.5px;
 	font-size: 0.75rem;
 	line-height: 2em;
 	text-align: center;
 }
 
 .widget_calendar td {
-	line-height: 1.91667em;
+	line-height: 1.92593em;
 }
 
 .widget_calendar th {
-	line-height: 1.83333em;
+	line-height: 1.85185em;
 }
 
 .widget_calendar tfoot td:first-child {
@@ -2578,7 +2578,7 @@ body.single .entry-thumbnail {
 .widget.widget_recent_comments li,
 .widget.widget_recent_entries li {
 	margin-bottom: 0.75em;
-	padding-bottom: 0.6875em;
+	padding-bottom: 0.69444em;
 	border-bottom: 1px solid;
 	border-bottom-color: #f1f1f1;
 }
@@ -2594,7 +2594,7 @@ body.single .entry-thumbnail {
 
 .widget_rss li {
 	margin-bottom: 0.75em;
-	padding-bottom: 0.6875em;
+	padding-bottom: 0.69444em;
 	border-bottom: 1px solid;
 	border-bottom-color: #f1f1f1;
 }
@@ -2978,7 +2978,7 @@ body.single .entry-thumbnail {
 }
 
 .search .entry-title {
-	font-size: 20px;
+	font-size: 22.5px;
 	font-size: 1.25rem;
 	line-height: 1.2;
 }
@@ -3840,7 +3840,7 @@ input[type='submit'].wpcf7-submit:focus {
 
 @media screen and (min-width: 768px) {
 	table {
-		margin-bottom: 2.9375em;
+		margin-bottom: 2.94444em;
 	}
 
 	.site-header {
@@ -3933,8 +3933,8 @@ input[type='submit'].wpcf7-submit:focus {
 
 	.pagination .page-numbers.all {
 		width: auto;
-		padding-right: 1.875em;
-		padding-left: 1.625em;
+		padding-right: 1.88889em;
+		padding-left: 1.63889em;
 	}
 
 	.pagination .page-numbers.all span {
@@ -3961,7 +3961,7 @@ input[type='submit'].wpcf7-submit:focus {
 	}
 
 	.entry-title {
-		font-size: 28px;
+		font-size: 31.5px;
 		font-size: 1.75rem;
 	}
 
