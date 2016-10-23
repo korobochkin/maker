@@ -34,7 +34,7 @@ function maker_mariupol_post_category() {
 		$name = esc_html( $name );
 
 		?><div class="cards-entry-meta-category"><?php
-			printf( '<a href="%2$s">%2$s</a>', $url, $name );
+			printf( '<a href="%1$s">%2$s</a>', $url, $name );
 		?></div><?php
 	}
 }
