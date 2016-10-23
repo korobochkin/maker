@@ -132,7 +132,7 @@ function maker_mariupol_footer_copyright() {
 }
 
 function maker_mariupol_footer_legal_notes() {
-	echo 'Використання будь-яких матеріалів сайту заборонене без згоди редакції &laquo;Мариуполісу&raquo;. Всі права на&nbsp;тексти, зображення і&nbsp;відео належать їхнім авторам.';
+	echo 'Використання будь-яких матеріалів сайту заборонене без згоди редакції &laquo;МарІуполісу&raquo;. Всі права на&nbsp;тексти, зображення і&nbsp;відео належать їхнім авторам.';
 }
 
 function maker_mariupol_header_site_logo() {
