@@ -11,4 +11,16 @@
 		display: block;
 		margin-bottom: 1.5em;
 	}
+
+  	a {
+	  &,
+	  &:visited {
+		text-decoration: underline;
+	  }
+
+	  &:hover,
+	  &:focus {
+		text-decoration: none;
+	  }
+	}
 }

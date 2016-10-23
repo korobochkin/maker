@@ -803,6 +803,11 @@ var {
 	font-size: 0.9375rem;
 }
 
+.small {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
 /**
  * Components.
  */
@@ -1465,6 +1470,7 @@ a.custom-logo-link img {
 .main-navigation a:focus,
 .main-navigation a:active {
 	color: #ff2441;
+	text-decoration: none;
 }
 
 /* Toggle Hamburger */
@@ -2000,11 +2006,15 @@ body.single .entry-thumbnail {
 	font-weight: bold;
 	line-height: 1.7142857143;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	text-transform: uppercase; /*a {
+  	color: $color__accent;
+  }
+*/
 }
 
-.entry-meta-item.cat-links a {
-	color: #ff2441;
+.entry-meta-item.posted-on a:hover,
+.entry-meta-item.posted-on a:focus {
+	text-decoration: none;
 }
 
 .byline,
@@ -2050,6 +2060,16 @@ body.single .entry-thumbnail {
 .entry-content img {
 	display: block;
 	margin-bottom: 1.5em;
+}
+
+.entry-content a,
+.entry-content a:visited {
+	text-decoration: underline;
+}
+
+.entry-content a:hover,
+.entry-content a:focus {
+	text-decoration: none;
 }
 
 /**
@@ -2556,6 +2576,16 @@ body.single .entry-thumbnail {
 
 .post-navigation span {
 	color: #bebebe;
+}
+
+.post-navigation a,
+.post-navigation a:visited {
+	text-decoration: underline;
+}
+
+.post-navigation a:hover,
+.post-navigation a:focus {
+	text-decoration: none;
 }
 
 .cards-entry-meta a {

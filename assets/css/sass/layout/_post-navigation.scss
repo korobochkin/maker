@@ -5,4 +5,16 @@
 	span {
 		color: $color__text-secondary;
 	}
+
+  	a {
+	  &,
+	  &:visited {
+		text-decoration: underline;
+	  }
+
+	  &:hover,
+	  &:focus {
+		text-decoration: none;
+	  }
+	}
 }
