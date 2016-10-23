@@ -38,7 +38,7 @@ Description: Used to style the TinyMCE editor.
 
 html {
 	box-sizing: border-box;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
 	font-size: 16px;
 
 	-webkit-text-size-adjust: 100%;
@@ -183,7 +183,7 @@ h6 {
 	margin: 0 0 24px 0;
 	margin: 0 0 1.5rem 0;
 	color: #585858;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -276,7 +276,7 @@ blockquote {
 	padding: 1.3333333333em 0;
 	border-top-color: #585858;
 	border-bottom-color: #bebebe;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-size: 1.125rem;
 	font-style: italic;
@@ -297,7 +297,7 @@ blockquote p {
 blockquote cite {
 	display: block;
 	margin: 0 0 -1.2em 0;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
 	font-size: 10px;
 	font-size: 0.625rem;
 	font-style: normal;
@@ -573,7 +573,7 @@ p > video {
 	margin: 1em 0;
 	padding: 0;
 	color: #bebebe;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Graphik, Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	font-size: 0.75rem;
 	font-weight: normal;
@@ -767,6 +767,20 @@ blockquote.alignright {
 	display: table;
 	clear: both;
 	content: '';
+}
+
+@font-face {
+	font-family: Graphik;
+	font-weight: normal;
+
+	src: url('../../uploads/2016/10/graphik/Graphik-Regular-Web.woff2');
+}
+
+@font-face {
+	font-family: Graphik;
+	font-weight: bold;
+
+	src: url('../../uploads/2016/10/graphik/Graphik-Medium-Web.woff2');
 }
 
 @media screen and (min-width: 768px) {
