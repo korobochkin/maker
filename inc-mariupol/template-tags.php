@@ -55,8 +55,8 @@ function maker_mariupol_site_footer_logo() {
 	$markup = '';
 
 	$markup .= sprintf(
-		'<img src="%1$s" width="150">',
-		esc_url( get_template_directory_uri() . '/assets/images/mariupol.svg' )
+		'<img src="%1$s" height="25">',
+		esc_url( get_template_directory_uri() . '/assets/images/anchor-black.svg' )
 	);
 
 	if( !is_front_page() && !is_home() ) {
