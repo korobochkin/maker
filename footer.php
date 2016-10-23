@@ -11,7 +11,7 @@
 	<div class="site">
 		<div class="wrap">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-2">
 					<?php maker_mariupol_site_footer_logo(); ?>
 				</div>
 				<div class="col-md-5">
@@ -19,7 +19,7 @@
 						<?php maker_mariupol_footer_legal_notes(); ?>
 					</div><!-- .site-info -->
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-2 offset-md-3">
 					<div class="site-info-copyright">
 						<?php maker_mariupol_footer_copyright(); ?>
 					</div>
