@@ -2643,6 +2643,14 @@ body.single .entry-thumbnail {
 	text-decoration: none;
 }
 
+.row-posts-cards .col-post {
+	margin-bottom: 35px;
+}
+
+.cards-entry .hentry {
+	margin-bottom: 0 !important;
+}
+
 .cards-entry-meta a {
 	text-decoration: none;
 }
@@ -2696,6 +2704,32 @@ body.single .entry-thumbnail {
 	color: #9a9a9a;
 	font-size: 16px;
 	line-height: 1.3125;
+}
+
+.cards-entry-excerpt p {
+	margin-bottom: 0;
+}
+
+.maker-mariupol-featured .entry-thumbnail {
+	margin-bottom: 0;
+}
+
+.maker-mariupol-featured .row-featured-post {
+	position: relative;
+}
+
+.maker-mariupol-featured .col-post-credits {
+	-ms-flex-item-align: center;
+	align-self: center; /*&:before,
+  &:after {
+    position: absolute;
+    height: 100px;
+    width: 3000px;
+    content: '';
+    display: block;
+    background-color: $color__text;
+  }
+*/
 }
 
 /**

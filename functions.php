@@ -200,6 +200,14 @@ function maker_scripts() {
 	if ( wp_style_is( 'contact-form-7', 'registered' ) ) {
 		wp_deregister_style( 'contact-form-7' );
 	}
+
+	wp_enqueue_script(
+		'packery',
+		'//unpkg.com/packery@2.1/dist/packery.pkgd.min.js',
+		array(),
+		'2.1',
+		true
+	);
 }
 add_action( 'wp_enqueue_scripts', 'maker_scripts' );
 

@@ -1,4 +1,15 @@
+.row-posts-cards {
+
+  .col-post {
+    margin-bottom: 35px;
+  }
+}
+
 .cards-entry {
+
+  .hentry {
+    margin-bottom: 0 !important;
+  }
 
   &-meta {
 
@@ -58,5 +69,38 @@
     font-size: 16px;
     line-height: 1.3125;
     color: #9a9a9a;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.maker-mariupol-featured {
+
+  .entry-thumbnail {
+    margin-bottom: 0;
+  }
+
+  .row-featured-post {
+    position: relative;
+  }
+  
+  .col-wide-thumb {
+    
+  }
+  
+  .col-post-credits {
+    align-self: center;
+
+    /*&:before,
+    &:after {
+      position: absolute;
+      height: 100px;
+      width: 3000px;
+      content: '';
+      display: block;
+      background-color: $color__text;
+    }*/
   }
 }

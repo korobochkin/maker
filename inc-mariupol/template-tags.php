@@ -4,7 +4,7 @@ function maker_mariupol_post_thumbnail() {
 	$markup = '';
 
 	if( has_post_thumbnail() ) {
-		if( is_singular() ) {
+		if( is_singular() || maker_mariupol_is_featured( get_the_ID() ) ) {
 			$markup .= get_the_post_thumbnail( null, '1200х630' );
 		} else {
 			$markup .= get_the_post_thumbnail( null, '670x352' );

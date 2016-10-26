@@ -6,7 +6,7 @@
  */
 
 ?>
-<div class="col-md-6 col-lg-4">
+<div class="col col-post col-md-6 col-lg-4">
 	<div class="cards-entry">
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 

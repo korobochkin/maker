@@ -13,13 +13,18 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-				<div class="row">
+				<div id="primary-posts-container" class="row row-posts-cards">
 
-					<?php while ( have_posts() ) : the_post(); ?>
-
-						<?php get_template_part( 'template-parts-mariupol/cards/content', get_post_format() ); ?>
-
-					<?php endwhile; ?>
+					<?php
+						while ( have_posts() ) {
+							the_post();
+							if( maker_mariupol_is_featured( get_the_ID() ) ) {
+								get_template_part( 'template-parts-mariupol/cards/content-featured', get_post_format() );
+							} else {
+								get_template_part( 'template-parts-mariupol/cards/content', get_post_format() );
+							}
+						}
+					?>
 
 				</div>
 

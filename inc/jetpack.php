@@ -21,6 +21,12 @@ function maker_jetpack_setup() {
 	) );
 
 	add_filter( 'infinite_scroll_js_settings', 'maker_load_more_text' );
+
+	add_theme_support( 'featured-content', array(
+		'filter' => 'maker_mariupol_get_featured_posts',
+	) );
+
+	add_filter( 'post_class', 'maker_mariupol_jetpack_post_class', 10, 3 );
 }
 add_action( 'after_setup_theme', 'maker_jetpack_setup' );
 
@@ -61,3 +67,64 @@ function maker_jetpack_portfolio_excerpts() {
 	}
 }
 add_action( 'init', 'maker_jetpack_portfolio_excerpts' );
+
+function maker_mariupol_get_featured_posts() {
+	return apply_filters( 'maker_mariupol_get_featured_posts', array() );
+}
+
+function maker_mariupol_has_featured_posts( $minimum = 1 ) {
+	if ( is_paged() )
+		return false;
+
+	$minimum = absint( $minimum );
+	$featured_posts = apply_filters( 'maker_mariupol_get_featured_posts', array() );
+
+	if ( ! is_array( $featured_posts ) )
+		return false;
+
+	if ( $minimum > count( $featured_posts ) )
+		return false;
+
+	return true;
+}
+
+/**
+ * Returns true if the given post is featured.
+ *
+ * @return bool Whether the given post is featured or not.
+ */
+function maker_mariupol_is_featured( $post_id = null ) {
+	// Cached stuff for less overhead :)
+	static $current_post_id = 0;
+	static $result = false;
+
+	// Maybe we already have result
+	if( $current_post_id == $post_id ) {
+		return $result;
+	}
+
+	$post = get_post( $post_id );
+	$featured = $result = false;
+	$term_id = maker_mariupol_get_jetpack_featured_content_term_id();
+	if ( ! $term_id )
+		return $featured;
+	$post_tags = wp_get_object_terms( $post->ID, 'post_tag' );
+	if ( in_array( $term_id, wp_list_pluck( $post_tags, 'term_id' ) ) )
+		$featured = $result = true;
+	return $featured;
+}
+
+function maker_mariupol_get_jetpack_featured_content_term_id() {
+	if ( ! method_exists( 'Featured_Content', 'get_setting' ) )
+		return 0;
+	$term = get_term_by( 'name', Featured_Content::get_setting( 'tag-name' ), 'post_tag' );
+	if ( ! $term )
+		return 0;
+	return $term->term_id;
+}
+
+function maker_mariupol_jetpack_post_class( $classes, $class, $post_id ) {
+	if ( maker_mariupol_is_featured( $post_id ) )
+		$classes[] = 'maker-mariupol-featured';
+	return $classes;
+}
