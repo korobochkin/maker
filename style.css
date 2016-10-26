@@ -2626,7 +2626,7 @@ body.single .entry-thumbnail {
 /* Post Navigation (Next/Previous Post) */
 
 .post-navigation {
-	margin-bottom: 1.5em;
+	margin-bottom: 1.6em;
 }
 
 .post-navigation span {
@@ -4434,6 +4434,10 @@ input[type='submit'].wpcf7-submit:focus {
 
 	.comment-list,
 	.form-submit {
+		margin-bottom: 3em;
+	}
+
+	.post-navigation {
 		margin-bottom: 3em;
 	}
 
