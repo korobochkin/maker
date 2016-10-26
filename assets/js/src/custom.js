@@ -8,6 +8,35 @@ jQuery( document ).ready( function( $ ) {
 		$( '.fitvid' ).fitVids();
 	}
 	makerFitvids();
+
+	// Jetpack Featured content
+
+	function makerMariupolFeatured() {
+		var container = $('#primary-posts-container');
+		var posts = container.find('.col-post');
+
+		//console.log(posts);
+
+		var maxHeight = 0;
+
+		$.each(posts, function(index, value) {
+			var height;
+			console.log(index, value, '\n');
+			height = $(value).outerHeight();
+			//height = value.outerHeight();
+			if( maxHeight < height ) {
+				maxHeight = height;
+			}
+		});
+
+		console.log(maxHeight);
+
+		container.packery({
+			itemSelector: '.col-post',
+			rowHeight: maxHeight
+		});
+	}
+	makerMariupolFeatured();
 } );
 
 /**
