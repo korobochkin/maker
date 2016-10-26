@@ -1375,17 +1375,21 @@ p > video {
 	max-width: 222px;
 }
 
-a.custom-logo-link {
+.custom-logo-link {
 	display: block;
 	margin: 0.75em 0;
 }
 
-a.custom-logo-link:hover img,
-a.custom-logo-link:focus img {
-	opacity: 0.7;
+.custom-logo-link img {
+	opacity: 0.55;
 }
 
-a.custom-logo-link img {
+.custom-logo-link:hover img,
+.custom-logo-link:focus img {
+	opacity: 0.45;
+}
+
+.custom-logo-link img {
 	display: block;
 	width: auto;
 	max-width: 100%;
@@ -3847,7 +3851,7 @@ input[type='submit'].wpcf7-submit:focus {
 		margin-bottom: 0;
 	}
 
-	a.custom-logo-link {
+	.custom-logo-link {
 		margin: 18px 0 0 0;
 	}
 
@@ -4840,11 +4844,11 @@ input[type='submit'].wpcf7-submit:focus {
 }
 
 @media screen and (max-width: 768px) {
-	a.custom-logo-link {
+	.custom-logo-link {
 		margin-top: 1.5em;
 	}
 
-	a.custom-logo-link img {
+	.custom-logo-link img {
 		width: 170px;
 	}
 

@@ -17,7 +17,7 @@
 	}
 }
 
-a.custom-logo-link {
+.custom-logo-link {
 	display: block;
 	margin: 0.75em 0;
 
@@ -29,11 +29,15 @@ a.custom-logo-link {
 	  }
 	}
 
+  img {
+	opacity: .55;
+  }
+
 
   &:hover,
   &:focus {
 	img {
-	  opacity: .7;
+	  opacity: .45;
 	}
   }
 
