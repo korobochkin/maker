@@ -39,6 +39,7 @@ function maker_setup() {
 	/*
 	 * Make theme available for translation.
 	 */
+	// php /srv/www/wordpress-develop/tools/i18n/makepot.php wp-theme /srv/www/wordpress-default/wp-content/themes/maker-mariupol /srv/www/wordpress-default/wp-content/themes/maker-mariupol/languages/maker.pot
 	load_theme_textdomain( 'maker', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
