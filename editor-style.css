@@ -441,6 +441,12 @@ hr {
 	background-color: #f1f1f1;
 }
 
+.separator-line {
+	display: block;
+	height: 1px;
+	background-color: #585858;
+}
+
 /* Media. Editor modifications */
 
 .wpview-wrap .toolbar .dashicons {

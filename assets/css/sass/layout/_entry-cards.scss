@@ -115,15 +115,35 @@
   
   .col-post-credits {
     align-self: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 
     /*&:before,
     &:after {
       position: absolute;
-      height: 100px;
-      width: 3000px;
+      height: 2px;
+      //width: 3000px;
       content: '';
       display: block;
+
       background-color: $color__text;
     }*/
+  }
+
+  .row-featured-post-prefix {
+    display: none;
+    overflow: hidden;
+
+    @media screen and ( min-width: $sm ) {
+      display: block;
+    }
+  }
+
+  .row-featured-post-prefix-before {
+    margin-bottom: -1px;
+  }
+
+  .row-featured-post-prefix-after {
+    margin-top: -1px;
   }
 }

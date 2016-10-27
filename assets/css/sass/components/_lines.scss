@@ -8,3 +8,9 @@ hr {
 	border: 0;
 	background-color: $color__text-light;
 }
+
+.separator-line {
+  display: block;
+  height: 1px;
+  background-color: $color__text;
+}

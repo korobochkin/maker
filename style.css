@@ -1079,6 +1079,12 @@ hr {
 	background-color: #f1f1f1;
 }
 
+.separator-line {
+	display: block;
+	height: 1px;
+	background-color: #585858;
+}
+
 /* Alerts */
 
 .wpcf7-response-output,
@@ -2711,17 +2717,34 @@ body.single .entry-thumbnail {
 }
 
 .maker-mariupol-featured .col-post-credits {
-	-ms-flex-item-align: center;
-	align-self: center; /*&:before,
-  &:after {
-    position: absolute;
-    height: 100px;
-    width: 3000px;
-    content: '';
-    display: block;
-    background-color: $color__text;
-  }
+	padding-top: 16px;
+	padding-bottom: 16px; /*&:before,
+    &:after {
+      position: absolute;
+      height: 2px;
+      //width: 3000px;
+      content: '';
+      display: block;
+      background-color: $color__text;
+    }
+
 */
+
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.maker-mariupol-featured .row-featured-post-prefix {
+	display: none;
+	overflow: hidden;
+}
+
+.maker-mariupol-featured .row-featured-post-prefix-before {
+	margin-bottom: -1px;
+}
+
+.maker-mariupol-featured .row-featured-post-prefix-after {
+	margin-top: -1px;
 }
 
 /**
@@ -4067,6 +4090,10 @@ input[type='submit'].wpcf7-submit:focus {
 
 	.portfolio-grid-col-4 .project:nth-of-type(4n) {
 		margin-right: 0;
+	}
+
+	.maker-mariupol-featured .row-featured-post-prefix {
+		display: block;
 	}
 
 	.blog .post,

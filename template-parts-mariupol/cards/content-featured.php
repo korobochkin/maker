@@ -1,6 +1,11 @@
 <div class="col col-post col-xs-12">
 	<div class="cards-entry">
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<div class="row row-featured-post-prefix row-featured-post-prefix-before">
+				<div class="col-md-6 col-lg-4 offset-md-6 offset-lg-8">
+					<span class="separator-line"></span>
+				</div>
+			</div>
 			<div class="row row-featured-post">
 				<div class="col-md-6 col-lg-8 col-wide-thumb">
 					<?php maker_mariupol_post_thumbnail(); ?>
@@ -28,6 +33,11 @@
 							<?php the_excerpt(); ?>
 						</div>
 					<?php endif; ?>
+				</div>
+			</div>
+			<div class="row row-featured-post-prefix row-featured-post-prefix-after">
+				<div class="col-md-6 col-lg-4 offset-md-6 offset-lg-8">
+					<span class="separator-line"></span>
 				</div>
 			</div>
 		</article>
