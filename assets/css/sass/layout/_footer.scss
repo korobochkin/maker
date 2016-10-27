@@ -31,8 +31,7 @@
 }
 
 .site-footer-logo {
-  display: block;
-  //width: 150px;
+  
   img {
 	opacity: .27;
 	width: auto;
@@ -44,7 +43,7 @@ a.site-footer-logo {
   &:hover,
   &:focus {
 	img {
-	  opacity: .2;
+	  opacity: .37;
 	}
   }
 }

@@ -1386,7 +1386,7 @@ p > video {
 
 .custom-logo-link:hover img,
 .custom-logo-link:focus img {
-	opacity: 0.45;
+	opacity: 0.65;
 }
 
 .custom-logo-link img {
@@ -1451,10 +1451,6 @@ p > video {
 	display: block;
 }
 
-.site-footer-logo {
-	display: block;
-}
-
 .site-footer-logo img {
 	width: auto;
 	height: 60px;
@@ -1463,7 +1459,7 @@ p > video {
 
 a.site-footer-logo:hover img,
 a.site-footer-logo:focus img {
-	opacity: 0.2;
+	opacity: 0.37;
 }
 
 .site-info-legal-notes {
