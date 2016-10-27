@@ -2710,10 +2710,6 @@ body.single .entry-thumbnail {
 	margin-bottom: 0;
 }
 
-.maker-mariupol-featured .entry-thumbnail {
-	margin-bottom: 0;
-}
-
 .maker-mariupol-featured .row-featured-post {
 	position: relative;
 }
@@ -4489,6 +4485,10 @@ input[type='submit'].wpcf7-submit:focus {
 		left: 0;
 		box-shadow: 0 -8px 38px 30px #fff;
 		content: '';
+	}
+
+	.maker-mariupol-featured .entry-thumbnail {
+		margin-bottom: 0;
 	}
 
 	.page-template-default .hentry {

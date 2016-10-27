@@ -90,7 +90,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        
+
         box-shadow: 0px -8px 38px 30px $color__background-body;
       }
     }
@@ -100,7 +100,9 @@
 .maker-mariupol-featured {
 
   .entry-thumbnail {
-    margin-bottom: 0;
+    @media screen and ( min-width: $md ) {
+      margin-bottom: 0;
+    }
   }
 
   .row-featured-post {
