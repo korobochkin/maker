@@ -209,7 +209,7 @@ function maker_entry_meta_before_content() {
 
 		maker_entry_comments_link();
 
-		edit_post_link( __( 'Edit', 'maker' ), '<span class="entry-meta-item edit-link">', '</span>' );
+		//edit_post_link( __( 'Edit', 'maker' ), '<span class="entry-meta-item edit-link">', '</span>' );
 
 		maker_pageviews();
 
