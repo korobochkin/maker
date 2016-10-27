@@ -22,17 +22,20 @@
 				</div>-->
 			</div>
 
-			<header class="cards-entry-header">
+			<div class="cards-entry-header-excerpt">
 
-				<?php the_title( sprintf( '<h2 class="cards-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+				<header class="cards-entry-header">
 
-			</header><!-- .entry-header -->
+					<?php the_title( sprintf( '<h2 class="cards-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
-			<?php if( has_excerpt() ) : ?>
-				<div class="cards-entry-excerpt">
-					<?php the_excerpt(); ?>
-				</div>
-			<?php endif; ?>
+				</header><!-- .entry-header -->
+
+				<?php if( has_excerpt() ) : ?>
+					<div class="cards-entry-excerpt">
+						<?php the_excerpt(); ?>
+					</div>
+				<?php endif; ?>
+			</div>
 
 		</article><!-- #post-## -->
 	</div>

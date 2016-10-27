@@ -74,6 +74,27 @@
       margin-bottom: 0;
     }
   }
+
+  &-header-excerpt {
+
+    @media screen and ( min-width: $md ) {
+      height: 168px;
+      overflow: hidden;
+      position: relative;
+
+      &:after {
+        display: block;
+        content: '';
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        
+        box-shadow: 0px -8px 38px 30px $color__background-body;
+      }
+    }
+  }
 }
 
 .maker-mariupol-featured {

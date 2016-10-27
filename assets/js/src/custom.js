@@ -13,11 +13,11 @@ jQuery( document ).ready( function( $ ) {
 
 	function makerMariupolFeatured() {
 		var container = $('#primary-posts-container');
-		var posts = container.find('.col-post');
+		//var posts = container.find('.col-post');
 
 		//console.log(posts);
 
-		var maxHeight = 0;
+		/*var maxHeight = 0;
 
 		$.each(posts, function(index, value) {
 			var height;
@@ -29,11 +29,11 @@ jQuery( document ).ready( function( $ ) {
 			}
 		});
 
-		console.log(maxHeight);
+		console.log(maxHeight);*/
 
 		container.packery({
 			itemSelector: '.col-post',
-			rowHeight: maxHeight
+			//rowHeight: maxHeight
 		});
 	}
 	makerMariupolFeatured();
