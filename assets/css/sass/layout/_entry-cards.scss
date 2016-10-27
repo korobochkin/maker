@@ -100,7 +100,7 @@
 .maker-mariupol-featured {
 
   .entry-thumbnail {
-    @media screen and ( min-width: $md ) {
+    @media screen and ( min-width: $sm ) {
       margin-bottom: 0;
     }
   }
@@ -115,8 +115,11 @@
   
   .col-post-credits {
     align-self: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
+
+    @media screen and ( min-width: $sm ) {
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
 
     /*&:before,
     &:after {
