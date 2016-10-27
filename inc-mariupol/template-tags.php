@@ -59,17 +59,11 @@ function maker_mariupol_site_footer_logo() {
 		esc_url( get_template_directory_uri() . '/assets/images/anchor-black.svg' )
 	);
 
-	if( !is_front_page() && !is_home() ) {
-		$template = '<a href="%1$s" class="site-footer-logo">%2$s</a>';
-		$markup = sprintf(
-			$template,
-			esc_url( home_url( '/' ) ),
-			$markup
-		);
-		unset( $template );
-	} else {
-		$markup = '<span class="site-footer-logo">' . $markup . '</span>';
-	}
+	$markup = sprintf(
+		'<a href="%1$s" class="site-footer-logo">%2$s</a>',
+		esc_url( home_url( '/' ) ),
+		$markup
+	);
 
 	$markup = '<div class="site-footer-logo-wrapper">' . $markup . '</div>';
 
