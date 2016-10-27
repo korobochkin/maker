@@ -106,7 +106,7 @@ function maker_setup() {
 	/*
 	 * This theme styles the visual editor to resemble the theme style.
 	 */
-	add_editor_style( array( get_template_directory_uri() . '/editor-style.css?2016-10-27-20-42' ) );
+	add_editor_style( array( get_template_directory_uri() . '/editor-style.css?2016-10-27-22-13' ) );
 }
 endif;
 add_action( 'after_setup_theme', 'maker_setup' );
@@ -155,7 +155,7 @@ function maker_scripts() {
 		'maker-style',
 		get_stylesheet_uri(),
 		array(),
-		'2016-10-27-20-42'
+		'2016-10-27-22-13'
 	);
 
 	wp_enqueue_script(
