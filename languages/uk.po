@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Maker 0.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/maker-mariupol\n"
-"POT-Creation-Date: 2016-10-26 22:53+0300\n"
-"PO-Revision-Date: 2016-10-28 21:34+0300\n"
+"POT-Creation-Date: 2016-10-28 21:45+0300\n"
+"PO-Revision-Date: 2016-10-28 21:45+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -46,22 +46,26 @@ msgid "Comments are closed."
 msgstr ""
 
 #: comments.php:66
+msgid "Leave a Reply"
+msgstr "Залишити коментар"
+
+#: comments.php:67
 msgid "Reply to %s"
 msgstr ""
 
-#: comments.php:67
+#: comments.php:68
 msgid "Cancel"
 msgstr ""
 
-#: functions.php:85 header.php:33
+#: functions.php:87 header.php:33
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:86
+#: functions.php:88
 msgid "Footer Menu"
 msgstr ""
 
-#: functions.php:131
+#: functions.php:133
 msgid "Sidebar"
 msgstr ""
 
@@ -160,7 +164,7 @@ msgid ""
 "details. <a href=\"%2$s\" target=\"_blank\">Got it, hide this notice.</a>"
 msgstr ""
 
-#: inc/jetpack.php:50
+#: inc/jetpack.php:56
 msgid "Load More"
 msgstr ""
 
@@ -178,10 +182,6 @@ msgstr ""
 
 #: inc/template-tags.php:187
 msgid "% Comments"
-msgstr ""
-
-#: inc/template-tags.php:212 inc/template-tags.php:350
-msgid "Edit"
 msgstr ""
 
 #: inc/template-tags.php:246
@@ -204,6 +204,10 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
+#: inc/template-tags.php:350
+msgid "Edit"
+msgstr ""
+
 #: inc/template-tags.php:435
 msgid "Newer"
 msgstr "Наступний"
@@ -220,47 +224,47 @@ msgstr ""
 msgid "Post navigation"
 msgstr ""
 
-#: inc/template-tags.php:454 inc/template-tags.php:456
+#: inc/template-tags.php:454
 msgid "Older:"
 msgstr "Попередній:"
 
-#: inc/template-tags.php:457
+#: inc/template-tags.php:455
 msgid "Newer:"
 msgstr "Наступний:"
 
-#: inc/template-tags.php:483
+#: inc/template-tags.php:481
 msgid "Prev"
 msgstr ""
 
-#: inc/template-tags.php:491
+#: inc/template-tags.php:489
 msgid "Next"
 msgstr ""
 
-#: inc/template-tags.php:503
+#: inc/template-tags.php:501
 msgid "All Projects"
 msgstr ""
 
-#: inc/template-tags.php:508
+#: inc/template-tags.php:506
 msgid "Portfolio navigation"
 msgstr ""
 
-#: inc/template-tags.php:520
+#: inc/template-tags.php:518
 msgid "Comment navigation"
 msgstr ""
 
-#: inc/template-tags.php:523
+#: inc/template-tags.php:521
 msgid "Older Comments"
 msgstr ""
 
-#: inc/template-tags.php:524
+#: inc/template-tags.php:522
 msgid "Newer Comments"
 msgstr ""
 
-#: inc-mariupol/template-tags.php:106
+#: inc-mariupol/template-tags.php:100
 msgid "&copy;&nbsp;%1$s «%2$s»"
 msgstr ""
 
-#: inc-mariupol/template-tags.php:112
+#: inc-mariupol/template-tags.php:106
 msgid "&copy;&nbsp;%1$s&ndash;%2$s «%3$s»"
 msgstr ""
 

@@ -41,6 +41,7 @@ function maker_setup() {
 	 */
 	// php /srv/www/wordpress-develop/tools/i18n/makepot.php wp-theme /srv/www/wordpress-default/wp-content/themes/maker-mariupol /srv/www/wordpress-default/wp-content/themes/maker-mariupol/languages/maker.pot
 	load_theme_textdomain( 'maker', get_template_directory() . '/languages' );
+	//load_theme_textdomain( 'maker-mariupol', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );

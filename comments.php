@@ -63,6 +63,7 @@ if ( post_password_required() ) {
 
 		// Display comment form.
 		comment_form( array(
+			'title_reply'       => __( 'Leave a Reply', 'maker' ),
 			'title_reply_to'    => __( 'Reply to %s', 'maker' ),
 			'cancel_reply_link' => __( 'Cancel', 'maker' ),
 		) );
