@@ -7,6 +7,7 @@
 
 ?>
 </div><!-- #page -->
+<div id="site-footer-push"></div>
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site">
 		<div class="wrap">

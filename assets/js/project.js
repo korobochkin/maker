@@ -206,34 +206,41 @@ jQuery( document ).ready( function( $ ) {
 	}
 	makerFitvids();
 
-	// Jetpack Featured content
+	// Sticky footer
+	function makerMariupolStickyFooter() {
 
-	function makerMariupolFeatured() {
-		var container = $('#primary-posts-container');
-		//var posts = container.find('.col-post');
+		var $window = $(window),
+			windowHeight,
 
-		//console.log(posts);
+			$wpadminbar = $('#wpadminbar'),
+			adminBarHeight,
 
-		/*var maxHeight = 0;
+			$page = $('#page'),
+			pageHeight,
 
-		$.each(posts, function(index, value) {
-			var height;
-			console.log(index, value, '\n');
-			height = $(value).outerHeight();
-			//height = value.outerHeight();
-			if( maxHeight < height ) {
-				maxHeight = height;
+			$footer = $('#colophon'),
+			footerHeight,
+			$footerPush = $('#site-footer-push'),
+			diff;
+
+		$(window).resize(function(){
+			windowHeight = $window.outerHeight();
+			adminBarHeight = $wpadminbar.outerHeight();
+			pageHeight = $page.outerHeight();
+			footerHeight = $footer.outerHeight();
+
+			diff = windowHeight - adminBarHeight - pageHeight - footerHeight;
+
+			if(diff > 0) {
+				$footerPush.height(diff);
+			} else {
+				$footerPush.height(0);
 			}
 		});
 
-		console.log(maxHeight);*/
-
-		container.packery({
-			itemSelector: '.col-post',
-			//rowHeight: maxHeight
-		});
+		$(window).resize();
 	}
-	makerMariupolFeatured();
+	makerMariupolStickyFooter();
 } );
 
 /**
