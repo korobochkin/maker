@@ -241,6 +241,27 @@ jQuery( document ).ready( function( $ ) {
 		$(window).resize();
 	}
 	makerMariupolStickyFooter();
+
+	function makerMariupolFeaturedPosts() {
+		var container = $('#primary-posts-container');
+
+		//var posts = container.find('.col-post');
+		/*$.each(posts, function(index, value) {
+			var height;
+			console.log(index, value, '\n');
+			height = $(value).outerHeight();
+			//height = value.outerHeight();
+			if( maxHeight < height ) {
+				maxHeight = height;
+			}
+		});*/
+
+		container.packery({
+			itemSelector: '.col-post'
+			//rowHeight: maxHeight
+		});
+	}
+	makerMariupolFeaturedPosts();
 } );
 
 /**
