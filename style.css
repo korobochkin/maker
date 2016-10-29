@@ -4089,6 +4089,22 @@ input[type='submit'].wpcf7-submit:focus {
 		margin-right: 0;
 	}
 
+	.cards-entry-header-excerpt {
+		overflow: hidden;
+		position: relative;
+		height: 168px;
+	}
+
+	.cards-entry-header-excerpt:after {
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		box-shadow: 0 -8px 38px 30px #fff;
+		content: '';
+	}
+
 	.maker-mariupol-featured .entry-thumbnail {
 		margin-bottom: 0;
 	}
@@ -4498,22 +4514,6 @@ input[type='submit'].wpcf7-submit:focus {
 
 	.post-navigation {
 		margin-bottom: 3em;
-	}
-
-	.cards-entry-header-excerpt {
-		overflow: hidden;
-		position: relative;
-		height: 168px;
-	}
-
-	.cards-entry-header-excerpt:after {
-		display: block;
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		box-shadow: 0 -8px 38px 30px #fff;
-		content: '';
 	}
 
 	.page-template-default .hentry {

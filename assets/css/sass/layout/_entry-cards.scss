@@ -77,7 +77,7 @@
 
   &-header-excerpt {
 
-    @media screen and ( min-width: $md ) {
+    @media screen and ( min-width: $sm ) {
       height: 168px;
       overflow: hidden;
       position: relative;
