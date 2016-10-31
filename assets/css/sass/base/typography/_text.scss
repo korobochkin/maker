@@ -1,3 +1,26 @@
 .small {
   @include font-size( 0.875 ); // 14
 }
+
+.text-muted {
+  color: $color__text-light;
+
+  a {
+    &,
+    &:visited,
+    &:hover,
+    &:focus {
+      color: $color__text-light;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+.text-caption {
+  font-size: 15px;
+}

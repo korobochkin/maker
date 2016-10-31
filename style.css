@@ -808,6 +808,27 @@ var {
 	font-size: 0.875rem;
 }
 
+.text-muted {
+	color: #f1f1f1;
+}
+
+.text-muted a,
+.text-muted a:visited,
+.text-muted a:hover,
+.text-muted a:focus {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+.text-muted a:hover,
+.text-muted a:focus {
+	text-decoration: underline;
+}
+
+.text-caption {
+	font-size: 15px;
+}
+
 /**
  * Components.
  */
