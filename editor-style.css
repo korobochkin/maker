@@ -420,6 +420,32 @@ var {
 	font-size: 0.9375rem;
 }
 
+.small {
+	font-size: 15.75px;
+	font-size: 0.875rem;
+}
+
+.text-muted {
+	color: #bebebe;
+}
+
+.text-muted a,
+.text-muted a:visited,
+.text-muted a:hover,
+.text-muted a:focus {
+	color: #bebebe;
+	text-decoration: none;
+}
+
+.text-muted a:hover,
+.text-muted a:focus {
+	text-decoration: underline;
+}
+
+.text-caption {
+	font-size: 15px;
+}
+
 /**
  * Repeatable Patterns
  */
