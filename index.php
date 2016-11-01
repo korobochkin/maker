@@ -13,7 +13,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-				<div id="primary-posts-container" class="row row-posts-cards">
+				<div id="primary-posts-container" class="row row-posts-cards mb-3">
 
 					<?php
 						while ( have_posts() ) {
