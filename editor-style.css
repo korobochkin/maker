@@ -427,7 +427,7 @@ var {
 .text-muted a:visited,
 .text-muted a:hover,
 .text-muted a:focus {
-	color: #bebebe;
+	color: #909090;
 	text-decoration: none;
 }
 
