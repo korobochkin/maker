@@ -4113,7 +4113,7 @@ input[type='submit'].wpcf7-submit:focus {
 	.cards-entry-header-excerpt {
 		overflow: hidden;
 		position: relative;
-		height: 168px;
+		height: 130px;
 	}
 
 	.cards-entry-header-excerpt:after {
@@ -4122,7 +4122,7 @@ input[type='submit'].wpcf7-submit:focus {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		box-shadow: 0 -8px 38px 30px #fff;
+		box-shadow: 0 0 10px 7px #fff;
 		content: '';
 	}
 

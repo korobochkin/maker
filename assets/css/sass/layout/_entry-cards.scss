@@ -78,7 +78,9 @@
   &-header-excerpt {
 
     @media screen and ( min-width: $sm ) {
-      height: 168px;
+
+      // ~ two lines header + two lines excerpt text
+      height: 130px;
       overflow: hidden;
       position: relative;
 
@@ -90,8 +92,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-
-        box-shadow: 0px -8px 38px 30px $color__background-body;
+        box-shadow: 0 0 10px 7px $color__background-body;
       }
     }
   }
