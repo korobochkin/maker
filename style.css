@@ -809,14 +809,14 @@ var {
 }
 
 .text-muted {
-	color: #f1f1f1;
+	color: #bebebe;
 }
 
 .text-muted a,
 .text-muted a:visited,
 .text-muted a:hover,
 .text-muted a:focus {
-	color: #f1f1f1;
+	color: #bebebe;
 	text-decoration: none;
 }
 

@@ -3,14 +3,14 @@
 }
 
 .text-muted {
-  color: $color__text-light;
+  color: $color__text-secondary;
 
   a {
     &,
     &:visited,
     &:hover,
     &:focus {
-      color: $color__text-light;
+      color: $color__text-secondary;
       text-decoration: none;
     }
 
