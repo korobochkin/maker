@@ -54,3 +54,5 @@ fonts/fontello/demo.html
 fonts/fontello/config.json
 fonts/fontello/README.txt
 fonts/*.zip
+
+/vendor/

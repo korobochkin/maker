@@ -1,0 +1,19 @@
+{
+    "name": "korobochkin/maker-mariupol",
+    "description": "WordPress theme for mariupol.is",
+    "type": "wordpress-theme",
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "Kolya Korobochkin",
+            "email": "me@korobochkin.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Korobochkin\\MakerMariupol\\": "inc-mariupol/"
+        }
+    }
+}
