@@ -1,6 +1,7 @@
 /* Lines */
 
-hr {
+hr,
+.hr {
 	box-sizing: content-box; // Do not remove. !normalize
 	height: 2px; // Do not remove. !normalize ( initial value: 0 )
 	margin-top: -2px;
