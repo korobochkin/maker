@@ -146,3 +146,21 @@ function maker_mariupol_header_site_logo() {
 
 	echo $markup;
 }
+
+function maker_mariupol_the_content_intro() {
+	$value = maker_mariupol_get_content_intro();
+	if( $value ) {
+		echo '<div class="entry-content-intro text-muted">' . $value . '<div class="hr"></div></div>';
+	}
+}
+
+function maker_mariupol_get_content_intro() {
+	$meta = new \Korobochkin\MakerMariupol\Meta\Intro\Meta();
+	$meta->setPostId(get_the_ID());
+	$value = $meta->getValue();
+	if( is_string( $value ) && $value != '' ) {
+		$value = wpautop( $value );
+		return $value;
+	}
+	return '';
+}

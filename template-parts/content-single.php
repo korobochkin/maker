@@ -27,6 +27,8 @@
 
 			<div class="entry-content post-single-item-content">
 
+				<?php maker_mariupol_the_content_intro(); ?>
+
 				<?php the_content(); ?>
 
 				<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'maker' ), 'after' => '</div>' ) ); ?>
