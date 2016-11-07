@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Maker 0.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/maker-mariupol\n"
-"POT-Creation-Date: 2016-10-28 21:45+0300\n"
-"PO-Revision-Date: 2016-10-28 21:45+0300\n"
+"POT-Creation-Date: 2016-11-07 20:50+0300\n"
+"PO-Revision-Date: 2016-11-07 20:50+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk_UA\n"
@@ -260,6 +260,10 @@ msgstr ""
 msgid "Newer Comments"
 msgstr ""
 
+#: inc-mariupol/Admin/MetaBoxes/Intro/MetaBox.php:11
+msgid "Intro"
+msgstr "Вступ"
+
 #: inc-mariupol/template-tags.php:100
 msgid "&copy;&nbsp;%1$s «%2$s»"
 msgstr ""
@@ -340,7 +344,7 @@ msgstr ""
 #: template-parts/content-page.php:24
 #: template-parts/content-single-portfolio-jetpack.php:34
 #: template-parts/content-single-portfolio-toolkit.php:34
-#: template-parts/content-single.php:32 template-parts/content.php:26
+#: template-parts/content-single.php:34 template-parts/content.php:26
 #: template-parts-mariupol/content-single.php:17
 msgid "Pages:"
 msgstr ""
@@ -371,7 +375,7 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "ThemePatio"
+msgid "ThemePatio (fork by Kolya Korobochkin)"
 msgstr ""
 
 #. Author URI of the plugin/theme
