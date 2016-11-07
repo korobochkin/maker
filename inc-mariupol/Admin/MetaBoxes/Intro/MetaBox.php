@@ -8,7 +8,7 @@ class MetaBox extends MetaBoxAbstract {
 
 	public function __construct() {
 		$this->setId('maker_mariupol_intro');
-		$this->setTitle(__('Intro', 'maker_mariupol'));
+		$this->setTitle(__('Intro', 'maker'));
 		$this->setContext('maker_mariupol_after_title');
 	}
 
