@@ -7,6 +7,7 @@ css:
   - 'autoprefixer'
   - 'combine_mq:default'
   - 'combine_mq:editor'
+  - 'combine_mq:admin'
   - 'replace:line_after_brace'
   - 'replace:line_after_docblock'
   - 'csscomb'

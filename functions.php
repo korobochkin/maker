@@ -252,8 +252,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Mariupol custom stuff.
  */
 require 'vendor/autoload.php';
-add_action( 'init', array( 'Korobochkin\MakerMariupol\Meta\Loader', 'run' ) );
-add_action( 'init', array( 'Korobochkin\MakerMariupol\MetaBoxes\Loader', 'init' ) );
-add_action( 'add_meta_boxes', array( 'Korobochkin\MakerMariupol\MetaBoxes\Loader', 'add' ) );
 require 'inc-mariupol/extras.php';
 require 'inc-mariupol/template-tags.php';
+if( is_admin() ) {
+	Korobochkin\MakerMariupol\Admin\Admin::run();
+}

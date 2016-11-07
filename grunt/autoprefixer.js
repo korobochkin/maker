@@ -8,7 +8,8 @@ module.exports = {
 	files: {
 		src: [
 			'style.css',
-			'editor-style.css'
+			'editor-style.css',
+			'admin-style.css'
 		]
 	}
 }
