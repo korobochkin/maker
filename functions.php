@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'MAKER_VERSION', '0.1.9' );
+define( 'MAKER_VERSION', '0.1.10' );
 
 /**
  * Is this a pro version?
