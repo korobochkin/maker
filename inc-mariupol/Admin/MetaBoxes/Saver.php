@@ -1,5 +1,5 @@
 <?php
-namespace Korobochkin\MakerMariupol\MetaBoxes;
+namespace Korobochkin\MakerMariupol\Admin\MetaBoxes;
 
 class Saver {
 

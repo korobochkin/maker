@@ -1,5 +1,5 @@
 <?php
-namespace Korobochkin\MakerMariupol\MetaBoxes\Prototypes;
+namespace Korobochkin\MakerMariupol\Admin\MetaBoxes\Prototypes;
 
 abstract class MetaBoxAbstract {
 

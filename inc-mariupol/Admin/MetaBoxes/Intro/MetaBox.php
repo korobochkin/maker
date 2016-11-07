@@ -1,8 +1,8 @@
 <?php
-namespace Korobochkin\MakerMariupol\MetaBoxes\Intro;
+namespace Korobochkin\MakerMariupol\Admin\MetaBoxes\Intro;
 
 use Korobochkin\MakerMariupol\Meta\Intro\Meta as IntroMeta;
-use Korobochkin\MakerMariupol\MetaBoxes\Prototypes\MetaBoxAbstract;
+use Korobochkin\MakerMariupol\Admin\MetaBoxes\Prototypes\MetaBoxAbstract;
 
 class MetaBox extends MetaBoxAbstract {
 
