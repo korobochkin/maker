@@ -28,7 +28,7 @@ class MetaBox extends MetaBoxAbstract {
 		$meta->setPostId(get_the_ID());
 		$value = $meta->getValue();
 		printf(
-			'<textarea name="%1$s" rows="5" class="large-text">%2$s</textarea>',
+			'<textarea name="%1$s" rows="5" class="maker-mariupol-postbox-intro-textarea">%2$s</textarea>',
 			esc_attr($this->getId()),
 			esc_textarea($value)
 		);

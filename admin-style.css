@@ -1,3 +1,10 @@
 #maker_mariupol_after_title-sortables {
 	margin-top: 20px;
 }
+
+.maker-mariupol-postbox-intro-textarea {
+	display: block;
+	width: 100%;
+	height: 4em;
+	margin: 12px 0 0;
+}
