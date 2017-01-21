@@ -2125,9 +2125,9 @@ body.single .entry-thumbnail {
 .entry-content,
 .entry-summary {
 	word-wrap: break-word;
-	-webkit-hyphens: auto;
-	    -ms-hyphens: auto;
-	        hyphens: auto;
+	-webkit-hyphens: none;
+	    -ms-hyphens: none;
+	        hyphens: none;
 }
 
 .entry-content img {
