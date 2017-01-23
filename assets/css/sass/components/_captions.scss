@@ -14,7 +14,11 @@
 		font-family: $font__main;
 		font-weight: normal;
 		font-style: normal;
-		line-height: 2em;
+		line-height: 1.2em;
+
+		@media screen and ( min-width: $sm ) {
+			line-height: 2em;
+		}
 	}
 }
 

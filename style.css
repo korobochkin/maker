@@ -1249,7 +1249,7 @@ p > video {
 	font-size: 0.75rem;
 	font-weight: normal;
 	font-style: normal;
-	line-height: 2em;
+	line-height: 1.2em;
 }
 
 .entry-content .wp-caption img {
@@ -4168,6 +4168,10 @@ input[type='submit'].wpcf7-submit:focus {
 @media screen and (min-width: 768px) {
 	table {
 		margin-bottom: 2.94444em;
+	}
+
+	.wp-caption .wp-caption-text {
+		line-height: 2em;
 	}
 
 	.site-header {
