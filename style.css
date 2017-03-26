@@ -43,7 +43,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 html {
 	box-sizing: border-box;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
+	font-family: Mariupol, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 
 	-webkit-text-size-adjust: 100%;
@@ -588,7 +588,7 @@ h6 {
 	margin: 0 0 27px 0;
 	margin: 0 0 1.5rem 0;
 	color: #585858;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
+	font-family: Mariupol, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 
@@ -675,7 +675,7 @@ blockquote {
 	padding: 1.3333333333em 0;
 	border-top-color: #585858;
 	border-bottom-color: #bebebe;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
+	font-family: Mariupol, Helvetica, Arial, sans-serif;
 	font-size: 20.25px;
 	font-size: 1.125rem;
 	font-style: italic;
@@ -696,7 +696,7 @@ blockquote p {
 blockquote cite {
 	display: block;
 	margin: 0 0 -1.2em 0;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
+	font-family: Mariupol, Helvetica, Arial, sans-serif;
 	font-size: 11.25px;
 	font-size: 0.625rem;
 	font-style: normal;
@@ -1244,7 +1244,7 @@ p > video {
 	display: block;
 	margin: 1em 0;
 	color: #bebebe;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
+	font-family: Mariupol, Helvetica, Arial, sans-serif;
 	font-size: 13.5px;
 	font-size: 0.75rem;
 	font-weight: normal;
@@ -1424,7 +1424,7 @@ p > video {
 	margin-bottom: 0;
 	padding-top: 1em;
 	color: #585858;
-	font-family: Graphik, Helvetica, Arial, sans-serif;
+	font-family: Mariupol, Helvetica, Arial, sans-serif;
 	font-size: 27px;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -3463,23 +3463,17 @@ input[type='submit'].wpcf7-submit:focus {
 }
 
 @font-face {
-	font-family: Graphik;
+	font-family: Mariupol;
 	font-weight: normal;
 
-	src: url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.eot');
-	undefined: undefined;
-	src: url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'), url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.woff2') format('woff2'), url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.woff') format('woff'), url('../../uploads/2016/10/graphik/regular/Graphik-Regular-Web.ttf') format('truetype');
-	undefined: undefined;
+	src: url('assets/fonts/mariupol/Mariupol-Regular.woff') format('woff');
 }
 
 @font-face {
-	font-family: Graphik;
+	font-family: Mariupol;
 	font-weight: bold;
 
-	src: url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.eot');
-	undefined: undefined;
-	src: url('../../uploads/2016/10/graphik/mediumGraphik-Medium-Web.eot?#iefix') format('embedded-opentype'), url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.woff2') format('woff2'), url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.woff') format('woff'), url('../../uploads/2016/10/graphik/medium/Graphik-Medium-Web.ttf') format('truetype');
-	undefined: undefined;
+	src: url('assets/fonts/mariupol/Mariupol-Medium.woff') format('woff');
 }
 
 @media screen and (min-width: 415px) {
