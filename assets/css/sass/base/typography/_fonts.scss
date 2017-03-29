@@ -1,4 +1,5 @@
 @font-face {
+  // 400 //
   font-family: Mariupol;
   font-weight: normal;
 
@@ -6,8 +7,18 @@
 }
 
 @font-face {
+  // 500 //
+  font-family: Mariupol;
+  font-weight: 500;
+
+  src: url('assets/fonts/mariupol/Mariupol-Medium.woff') format('woff');
+}
+
+
+@font-face {
+  // 700 //
   font-family: Mariupol;
   font-weight: bold;
 
-  src: url('assets/fonts/mariupol/Mariupol-Medium.woff') format('woff');
+  src: url('assets/fonts/mariupol/Mariupol-Bold.woff') format('woff');
 }

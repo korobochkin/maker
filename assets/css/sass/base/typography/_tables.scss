@@ -19,7 +19,7 @@ thead th {
 	padding: em_minus_px( 1em, 1px, $font__size-body-px * 0.75 ) 1em em_minus_px( 1em, 1px, $font__size-body-px * 0.75 );
 	border-bottom: 2px solid;
 	border-bottom-color: $color__text-secondary;
-	font-weight: bold;
+	font-weight: $font-weight-medium;
 	text-transform: uppercase;
 	background-color: $color__text-light;
 }
